@@ -123,12 +123,54 @@ async function loadProfile(){
 }
 async function loadCart(){
   const box=document.getElementById("accountCartList");
+  const subtotalEl=document.getElementById("cartSubtotal");
   const cart=await getActiveCart();
-  if(!cart){ box.innerHTML='<p class="muted">Your cart is empty.</p>'; return; }
-  const {data}=await sb.from("cart_items").select("*").eq("cart_id",cart.id);
+  if(!cart){
+    box.innerHTML='<p class="muted">Your cart is empty.</p>';
+    subtotalEl.textContent=moneyTHB2(0);
+    return;
+  }
+  const {data}=await sb.from("cart_items").select("*").eq("cart_id",cart.id).order("created_at",{ascending:true});
   const items=data||[];
-  box.innerHTML=items.length ? items.map(x=>'<div class="mini-row"><div><b>'+((x.thai_title||x.title)||"")+'</b><br><small>'+x.sku+' × '+x.quantity+'</small></div><strong>'+moneyTHB2((Number(x.unit_price_thb)||0)*x.quantity)+'</strong></div>').join("") : '<p class="muted">Your cart is empty.</p>';
+  const subtotal=items.reduce((sum,x)=>sum+(Number(x.unit_price_thb)||0)*(x.quantity||1),0);
+  subtotalEl.textContent=moneyTHB2(subtotal);
+  box.innerHTML=items.length ? items.map(x=>`
+    <div class="mini-row cart-row">
+      <div class="row-main">
+        <b>${(x.thai_title||x.title)||""}</b><br>
+        <small>${x.sku}</small>
+      </div>
+      <div class="row-actions">
+        <div class="cart-controls">
+          <button class="qty-btn" data-cart-minus="${x.id}" aria-label="Decrease quantity">−</button>
+          <span class="qty-value">${x.quantity}</span>
+          <button class="qty-btn" data-cart-plus="${x.id}" aria-label="Increase quantity">+</button>
+        </div>
+        <strong>${moneyTHB2((Number(x.unit_price_thb)||0)*x.quantity)}</strong>
+        <button class="remove-btn" data-cart-remove="${x.id}">Remove</button>
+      </div>
+    </div>`).join("") : '<p class="muted">Your cart is empty.</p>';
 }
+async function loadFavorites(){
+  const box=document.getElementById("favoritesList");
+  const {data,error}=await sb.from("favorites").select("*").eq("user_id",hdpaUser.id).order("created_at",{ascending:false});
+  if(error){ box.innerHTML='<p class="muted">Could not load favorites.</p>'; return; }
+  const items=data||[];
+  box.innerHTML=items.length ? items.map(x=>`
+    <div class="mini-row favorite-row">
+      <img class="favorite-thumb" src="${x.image_url||'assets/placeholder.svg'}" alt="">
+      <div class="row-main">
+        <b>${x.thai_title||x.title}</b><br>
+        <small>${x.sku}</small>
+      </div>
+      <div class="row-actions">
+        <strong>${moneyTHB2(x.thai_price_thb)}</strong>
+        <button class="fav-cart-btn" data-favorite-cart="${x.sku}">Add to cart</button>
+        <button class="fav-remove-btn" data-favorite-remove="${x.id}">Remove</button>
+      </div>
+    </div>`).join("") : '<p class="muted">No favorites yet.</p>';
+}
+
 async function loadHistory(){
   const [q,o]=await Promise.all([
     sb.from("quote_requests").select("quote_number,status,total_thb,created_at").eq("user_id",hdpaUser.id).order("created_at",{ascending:false}).limit(5),
@@ -143,7 +185,7 @@ async function loadHistory(){
 async function openAccount(){
   if(!hdpaUser){ authModal.showModal(); return; }
   document.getElementById("accountEmail").textContent=hdpaUser.email||"";
-  await Promise.all([loadProfile(),loadCart(),loadHistory(),refreshCounts()]);
+  await Promise.all([loadProfile(),loadCart(),loadFavorites(),loadHistory(),refreshCounts()]);
   accountModal.showModal();
 }
 
@@ -199,6 +241,69 @@ document.getElementById("signOutButton").addEventListener("click",async()=>{
   accountModal.close();
 });
 
+document.getElementById("accountCartList").addEventListener("click",async e=>{
+  if(!hdpaUser) return;
+  const plus=e.target.closest("[data-cart-plus]");
+  const minus=e.target.closest("[data-cart-minus]");
+  const remove=e.target.closest("[data-cart-remove]");
+  try{
+    if(plus){
+      const id=plus.dataset.cartPlus;
+      const {data,error}=await sb.from("cart_items").select("quantity").eq("id",id).single();
+      if(error) throw error;
+      const {error:updateError}=await sb.from("cart_items").update({quantity:data.quantity+1}).eq("id",id);
+      if(updateError) throw updateError;
+      showToast("Quantity updated ✓");
+    }
+    if(minus){
+      const id=minus.dataset.cartMinus;
+      const {data,error}=await sb.from("cart_items").select("quantity").eq("id",id).single();
+      if(error) throw error;
+      if(data.quantity<=1){
+        const {error:deleteError}=await sb.from("cart_items").delete().eq("id",id);
+        if(deleteError) throw deleteError;
+        showToast("Removed from cart");
+      }else{
+        const {error:updateError}=await sb.from("cart_items").update({quantity:data.quantity-1}).eq("id",id);
+        if(updateError) throw updateError;
+        showToast("Quantity updated ✓");
+      }
+    }
+    if(remove){
+      const {error}=await sb.from("cart_items").delete().eq("id",remove.dataset.cartRemove);
+      if(error) throw error;
+      showToast("Removed from cart");
+    }
+    if(plus||minus||remove){
+      await Promise.all([loadCart(),refreshCounts()]);
+    }
+  }catch(err){ showToast(err.message||"Cart update failed","error"); }
+});
+
+document.getElementById("favoritesList").addEventListener("click",async e=>{
+  if(!hdpaUser) return;
+  const remove=e.target.closest("[data-favorite-remove]");
+  const add=e.target.closest("[data-favorite-cart]");
+  try{
+    if(remove){
+      const {error}=await sb.from("favorites").delete().eq("id",remove.dataset.favoriteRemove);
+      if(error) throw error;
+      await Promise.all([loadFavorites(),refreshCounts()]);
+      showToast("Removed from Favorites");
+    }
+    if(add){
+      const sku=add.dataset.favoriteCart;
+      const p=window.catalog?.find?.(x=>x.sku===sku) || catalog?.find?.(x=>x.sku===sku);
+      if(p && window.hdpaAddCart){
+        await window.hdpaAddCart(p);
+        await loadCart();
+      }else{
+        showToast("Part is no longer in the live catalog","error");
+      }
+    }
+  }catch(err){ showToast(err.message||"Favorite update failed","error"); }
+});
+
 document.getElementById("requestQuoteButton").addEventListener("click",async()=>{
   setMsg(quoteMessage,"");
   const cart=await getActiveCart();
@@ -216,7 +321,7 @@ document.getElementById("requestQuoteButton").addEventListener("click",async()=>
   if(itemError){ setMsg(quoteMessage,itemError.message,"error"); return; }
   await sb.from("carts").update({status:"submitted"}).eq("id",cart.id);
   setMsg(quoteMessage,"Quote "+quoteNumber+" submitted. We will calculate combined shipping.","success");
-  await Promise.all([loadCart(),loadHistory(),refreshCounts()]);
+  await Promise.all([loadCart(),loadFavorites(),loadHistory(),refreshCounts()]);
 });
 
 window.hdpaAddFavorite = async function(p){
