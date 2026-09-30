@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+<rect width="900" height="650" fill="#f4f6f8"/>
+<g fill="none" stroke="#bac4d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="310" cy="420" r="92"/><circle cx="620" cy="420" r="92"/>
+<path d="M310 420h112l72-120h108l64 120M420 420l-70-160h92l52 40M495 300l-40-88h72"/>
+<path d="M543 254h95"/>
+</g>
+<text x="450" y="560" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#7d8997">HD Parts Asia</text>
+</svg>
