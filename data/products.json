@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "sku": "TEST-HD-001",
+    "sourceType": "OWNED",
+    "sourceUrl": "",
+    "title": "TEST ITEM — Harley-Davidson Used Part",
+    "thaiTitle": "สินค้าทดสอบ — อะไหล่ Harley-Davidson มือสอง",
+    "oem": "TEST-OEM",
+    "fitment": "Test fitment only — not for sale",
+    "condition": "Used — TEST ITEM",
+    "category": "Test",
+    "shortDescription": "Temporary test product for checking account, favorites, cart, and shipping quote workflow. Do not order.",
+    "thaiDescription": "สินค้าทดสอบชั่วคราวสำหรับตรวจสอบระบบบัญชี รายการโปรด ตะกร้า และการขอใบเสนอราคาค่าจัดส่ง ห้ามสั่งซื้อจริง",
+    "thaiPriceTHB": 2900,
+    "ebayPriceUSD": 99,
+    "shippingEstimate": "TEST: ฿900–1,500 / 5–10 days",
+    "status": "Available",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  }
+]
