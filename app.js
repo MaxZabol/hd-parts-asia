@@ -85,9 +85,10 @@ function render(){
           <div><div class="source-price">${p.priceLabel || "Dealer price"}</div><div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div></div>
           ${p.shippingEstimate ? '<small>'+esc(p.shippingEstimate)+'</small>' : ""}
         </div>
-        <div class="card-actions">
+        <div class="card-actions three-actions">
           <button class="primary-action" data-open="${esc(p.sku)}">Details</button>
-          <button data-copy="${esc(p.sku)}">Copy SKU</button>
+          <button class="favorite-action" data-favorite="${esc(p.sku)}" title="Favorite">♡</button>
+          <button class="cart-action" data-cart="${esc(p.sku)}" title="Add to cart">🛒</button>
         </div>
       </div>`;
     grid.appendChild(card);
@@ -112,17 +113,26 @@ function openProduct(sku){
       </dl>
       <div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div>
       ${p.ebayPriceUSD ? '<small>Reference US price: '+moneyUSD(p.ebayPriceUSD)+'</small>' : ""}
+      <div class="card-actions" style="margin-top:18px">
+        <button class="favorite-action" data-favorite="${esc(p.sku)}">♡ Save</button>
+        <button class="primary-action cart-action" data-cart="${esc(p.sku)}">🛒 Add to cart</button>
+      </div>
     </div>
    </div>`;
   modal.showModal();
 }
-grid.addEventListener("click",e=>{
+document.addEventListener("click",e=>{
   const open=e.target.closest("[data-open]");
-  const copy=e.target.closest("[data-copy]");
+  const favorite=e.target.closest("[data-favorite]");
+  const cart=e.target.closest("[data-cart]");
   if(open) openProduct(open.dataset.open);
-  if(copy){
-    navigator.clipboard.writeText(copy.dataset.copy);
-    const prev=copy.textContent;copy.textContent="Copied";setTimeout(()=>copy.textContent=prev,1200);
+  if(favorite){
+    const p=catalog.find(x=>x.sku===favorite.dataset.favorite);
+    if(p && window.hdpaAddFavorite) window.hdpaAddFavorite(p);
+  }
+  if(cart){
+    const p=catalog.find(x=>x.sku===cart.dataset.cart);
+    if(p && window.hdpaAddCart) window.hdpaAddCart(p);
   }
 });
 $("#modalClose").addEventListener("click",()=>modal.close());
