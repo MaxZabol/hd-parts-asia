@@ -8,6 +8,43 @@ const authMessage = document.getElementById("authMessage");
 const profileMessage = document.getElementById("profileMessage");
 const quoteMessage = document.getElementById("quoteMessage");
 
+function showToast(message,type="success"){
+  let wrap=document.querySelector(".toast-wrap");
+  if(!wrap){
+    wrap=document.createElement("div");
+    wrap.className="toast-wrap";
+    document.body.appendChild(wrap);
+  }
+  const toast=document.createElement("div");
+  toast.className="toast "+type;
+  toast.textContent=message;
+  wrap.appendChild(toast);
+  setTimeout(()=>{toast.style.opacity="0";toast.style.transform="translateY(12px)";},1800);
+  setTimeout(()=>toast.remove(),2200);
+}
+function bumpHeader(id){
+  const el=document.getElementById(id);
+  if(!el)return;
+  el.classList.remove("bump");
+  void el.offsetWidth;
+  el.classList.add("bump");
+  setTimeout(()=>el.classList.remove("bump"),450);
+}
+function markFavoriteButtons(sku){
+  document.querySelectorAll('[data-favorite="'+CSS.escape(sku)+'"]').forEach(btn=>{
+    btn.classList.add("is-saved");
+    btn.textContent=btn.textContent.includes("Save")?"♥ Saved":"♥";
+  });
+}
+function flashCartButtons(sku){
+  document.querySelectorAll('[data-cart="'+CSS.escape(sku)+'"]').forEach(btn=>{
+    const old=btn.textContent;
+    btn.classList.add("is-added");
+    btn.textContent=old.includes("Add")?"✓ Added":"✓";
+    setTimeout(()=>{btn.classList.remove("is-added");btn.textContent=old;},1200);
+  });
+}
+
 function setMsg(el, msg, type=""){
   if(!el) return;
   el.textContent = msg || "";
@@ -184,23 +221,41 @@ document.getElementById("requestQuoteButton").addEventListener("click",async()=>
 
 window.hdpaAddFavorite = async function(p){
   if(!hdpaUser){authModal.showModal();return;}
-  await sb.from("favorites").upsert({
-    user_id:hdpaUser.id,sku:p.sku,title:p.title,thai_title:p.thaiTitle||null,image_url:(p.photos&&p.photos[0])||null,thai_price_thb:p.thaiPriceTHB||null
-  },{onConflict:"user_id,sku"});
-  await refreshCounts();
+  try{
+    const {error}=await sb.from("favorites").upsert({
+      user_id:hdpaUser.id,sku:p.sku,title:p.title,thai_title:p.thaiTitle||null,image_url:(p.photos&&p.photos[0])||null,thai_price_thb:p.thaiPriceTHB||null
+    },{onConflict:"user_id,sku"});
+    if(error) throw error;
+    markFavoriteButtons(p.sku);
+    await refreshCounts();
+    bumpHeader("favoritesButton");
+    showToast("Added to Favorites ♥");
+  }catch(err){
+    showToast(err.message||"Could not add to Favorites","error");
+  }
 };
 window.hdpaAddCart = async function(p){
   if(!hdpaUser){authModal.showModal();return;}
-  const cartId=await ensureActiveCart();
-  const {data:existing}=await sb.from("cart_items").select("id,quantity").eq("cart_id",cartId).eq("sku",p.sku).maybeSingle();
-  if(existing){
-    await sb.from("cart_items").update({quantity:existing.quantity+1}).eq("id",existing.id);
-  }else{
-    await sb.from("cart_items").insert({
-      cart_id:cartId,sku:p.sku,title:p.title,thai_title:p.thaiTitle||null,quantity:1,unit_price_thb:p.thaiPriceTHB||null,source_type:p.sourceType||null,source_url:p.sourceUrl||null,image_url:(p.photos&&p.photos[0])||null,availability_status:p.status||null
-    });
+  try{
+    const cartId=await ensureActiveCart();
+    const {data:existing,error:findError}=await sb.from("cart_items").select("id,quantity").eq("cart_id",cartId).eq("sku",p.sku).maybeSingle();
+    if(findError) throw findError;
+    if(existing){
+      const {error}=await sb.from("cart_items").update({quantity:existing.quantity+1}).eq("id",existing.id);
+      if(error) throw error;
+    }else{
+      const {error}=await sb.from("cart_items").insert({
+        cart_id:cartId,sku:p.sku,title:p.title,thai_title:p.thaiTitle||null,quantity:1,unit_price_thb:p.thaiPriceTHB||null,source_type:p.sourceType||null,source_url:p.sourceUrl||null,image_url:(p.photos&&p.photos[0])||null,availability_status:p.status||null
+      });
+      if(error) throw error;
+    }
+    flashCartButtons(p.sku);
+    await refreshCounts();
+    bumpHeader("cartButton");
+    showToast(existing ? "Quantity updated in cart ✓" : "Added to Cart ✓");
+  }catch(err){
+    showToast(err.message||"Could not add to Cart","error");
   }
-  await refreshCounts();
 };
 
 sb.auth.onAuthStateChange(async(_event,session)=>{ hdpaUser=session?.user||null; await refreshAuthUI(); });
