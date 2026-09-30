@@ -253,14 +253,24 @@
         <section class="account-panel">
           <h3>Cart & Quote</h3>
           <div id="accountCartList" class="mini-list"></div>
+          <div class="cart-summary">
+            <span>Subtotal</span>
+            <strong id="cartSubtotal">฿0</strong>
+          </div>
           <button id="requestQuoteButton" class="btn btn-primary full-btn" type="button">Request shipping quote</button>
           <p id="quoteMessage" class="form-message"></p>
         </section>
       </div>
-      <section class="account-panel account-history">
-        <h3>Recent quotes & orders</h3>
-        <div id="historyList" class="mini-list"></div>
-      </section>
+      <div class="account-grid lower-grid">
+        <section class="account-panel">
+          <h3>Favorites</h3>
+          <div id="favoritesList" class="mini-list"></div>
+        </section>
+        <section class="account-panel account-history">
+          <h3>Recent quotes & orders</h3>
+          <div id="historyList" class="mini-list"></div>
+        </section>
+      </div>
     </div>
   </dialog>
 
