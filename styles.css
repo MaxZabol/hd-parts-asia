@@ -46,3 +46,14 @@ footer{background:#0d1b2c;color:#fff;padding:35px 0}.footer-wrap{display:flex;ju
 .card-actions.three-actions{display:grid;grid-template-columns:1fr auto auto}.card-actions .favorite-action,.card-actions .cart-action{flex:0 0 auto;min-width:44px}
 @media(max-width:900px){.account-actions{gap:5px}.account-btn{font-size:12px}.account-grid{grid-template-columns:1fr}.account-stats{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.icon-btn{padding:8px}.account-btn{display:none}.account-actions{margin-left:auto}.wide-account{width:calc(100% - 12px)}.auth-shell,.account-shell{padding:24px 18px}.account-head{display:block}.account-head .btn{margin-top:12px}.account-stats{grid-template-columns:repeat(2,1fr)}}
+
+.toast-wrap{position:fixed;right:20px;bottom:20px;z-index:9999;display:grid;gap:10px;pointer-events:none}
+.toast{min-width:260px;max-width:360px;background:#0c2748;color:#fff;padding:14px 16px;border-radius:12px;box-shadow:0 16px 40px rgba(0,0,0,.22);font-weight:700;transform:translateY(18px);opacity:0;animation:toastIn .22s ease forwards}
+.toast.success{background:#138a4b}.toast.error{background:#c9362b}
+@keyframes toastIn{to{transform:translateY(0);opacity:1}}
+@keyframes popBadge{0%{transform:scale(1)}45%{transform:scale(1.35)}100%{transform:scale(1)}}
+.icon-btn.bump span{animation:popBadge .35s ease}
+.card-actions button{transition:transform .15s ease,background .2s ease,color .2s ease,border-color .2s ease}
+.card-actions button:active{transform:scale(.96)}
+.favorite-action.is-saved{background:#fff0f3!important;color:#c9365b!important;border-color:#f2b7c5!important}
+.cart-action.is-added{background:#e8f7ef!important;color:#138a4b!important;border-color:#a8dfbf!important}
