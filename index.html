@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Harley-Davidson parts sourced from the USA and international markets for Thailand and Asia." />
+  <title>HD Parts Asia | Harley-Davidson Parts for Thailand & Asia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="HD Parts Asia home">
+        <span class="brand-mark">HD</span>
+        <span>
+          <strong>HD Parts Asia</strong>
+          <small>Harley-Davidson Parts • USA → Thailand / Asia</small>
+        </span>
+      </a>
+      <nav class="main-nav">
+        <a href="#inventory">อะไหล่ / Parts</a>
+        <a href="#shipping">จัดส่ง / Shipping</a>
+        <a href="#how">วิธีสั่งซื้อ / How to Order</a>
+      </nav>
+      <button id="languageToggle" class="lang-btn" type="button">TH / EN</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">USA SOURCING • THAILAND / ASIA</span>
+          <h1 data-th="อะไหล่ Harley-Davidson จากสหรัฐฯ สำหรับร้านค้าและผู้ซื้อในเอเชีย"
+              data-en="Harley-Davidson parts from the USA for shops and buyers across Asia">
+            อะไหล่ Harley-Davidson จากสหรัฐฯ สำหรับร้านค้าและผู้ซื้อในเอเชีย
+          </h1>
+          <p class="hero-copy"
+             data-th="ค้นหาอะไหล่ตามหมายเลข OEM รุ่น ปี และหมวดหมู่ ดูรูป ราคา สถานะสินค้า และประมาณการค่าจัดส่งในที่เดียว"
+             data-en="Search by OEM number, model, year, and category. See photos, pricing, availability, and estimated shipping in one place.">
+            ค้นหาอะไหล่ตามหมายเลข OEM รุ่น ปี และหมวดหมู่ ดูรูป ราคา สถานะสินค้า และประมาณการค่าจัดส่งในที่เดียว
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#inventory"
+               data-th="ดูอะไหล่ที่มี" data-en="Browse available parts">ดูอะไหล่ที่มี</a>
+            <a class="btn btn-secondary" href="#shipping"
+               data-th="ดูข้อมูลจัดส่ง" data-en="Shipping information">ดูข้อมูลจัดส่ง</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ OEM / Fitment Research</span>
+            <span>✓ Dealer Pricing</span>
+            <span>✓ USA → Thailand / Asia</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <span class="live-dot"></span>
+            <span data-th="แคตตาล็อกสต็อก" data-en="Live inventory catalog">แคตตาล็อกสต็อก</span>
+          </div>
+          <div class="hero-stat-grid">
+            <div><strong id="availableCount">0</strong><span data-th="มีสินค้า" data-en="Available">มีสินค้า</span></div>
+            <div><strong id="comingSoonCount">0</strong><span data-th="เร็ว ๆ นี้" data-en="Coming Soon">เร็ว ๆ นี้</span></div>
+            <div><strong id="sourceCount">0</strong><span data-th="หาให้ได้" data-en="Source Available">หาให้ได้</span></div>
+          </div>
+          <p data-th="ข้อมูลในหน้านี้จะอัปเดตจากฐานข้อมูลสินค้ากลางของเรา"
+             data-en="This catalog is designed to update from our central inventory database.">
+            ข้อมูลในหน้านี้จะอัปเดตจากฐานข้อมูลสินค้ากลางของเรา
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="inventory" class="section inventory-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">INVENTORY</span>
+            <h2 data-th="ค้นหาอะไหล่" data-en="Find Parts">ค้นหาอะไหล่</h2>
+          </div>
+          <p data-th="ค้นหาด้วยชื่ออะไหล่ หมายเลข OEM รุ่น หรือ SKU"
+             data-en="Search by part name, OEM number, model, or SKU.">
+            ค้นหาด้วยชื่ออะไหล่ หมายเลข OEM รุ่น หรือ SKU
+          </p>
+        </div>
+
+        <div class="filters">
+          <label class="search-box">
+            <span>⌕</span>
+            <input id="searchInput" type="search" placeholder="ค้นหา / Search: OEM, model, SKU..." />
+          </label>
+          <select id="categoryFilter" aria-label="Category">
+            <option value="">ทุกหมวดหมู่ / All categories</option>
+          </select>
+          <select id="statusFilter" aria-label="Status">
+            <option value="">ทุกสถานะ / All statuses</option>
+            <option value="Available">Available</option>
+            <option value="Source Available">Source Available</option>
+            <option value="Coming Soon">Coming Soon</option>
+          </select>
+        </div>
+
+        <div id="inventoryGrid" class="inventory-grid" aria-live="polite"></div>
+        <div id="emptyState" class="empty-state hidden">
+          <div class="empty-icon">🏍️</div>
+          <h3 data-th="กำลังเพิ่มสินค้าเข้าระบบ" data-en="Inventory is being added">กำลังเพิ่มสินค้าเข้าระบบ</h3>
+          <p data-th="อะไหล่ชุดแรกกำลังถูกตรวจสอบหมายเลข OEM ราคา และข้อมูลรุ่นที่ใช้ร่วมกัน"
+             data-en="The first parts are being researched for OEM numbers, pricing, and fitment before publication.">
+            อะไหล่ชุดแรกกำลังถูกตรวจสอบหมายเลข OEM ราคา และข้อมูลรุ่นที่ใช้ร่วมกัน
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="shipping" class="section alt-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">USA → THAILAND / ASIA</span>
+            <h2 data-th="ค่าจัดส่งและระยะเวลา" data-en="Shipping Cost & Delivery Time">ค่าจัดส่งและระยะเวลา</h2>
+          </div>
+          <p data-th="ราคาจัดส่งจริงขึ้นอยู่กับน้ำหนัก ขนาด ปลายทาง และวิธีขนส่ง"
+             data-en="Final shipping cost depends on weight, dimensions, destination, and shipping method.">
+            ราคาจัดส่งจริงขึ้นอยู่กับน้ำหนัก ขนาด ปลายทาง และวิธีขนส่ง
+          </p>
+        </div>
+
+        <div class="shipping-grid">
+          <article class="info-card">
+            <span class="card-icon">✈</span>
+            <h3 data-th="ด่วนทางอากาศ" data-en="Air Express">ด่วนทางอากาศ</h3>
+            <p data-th="เหมาะสำหรับ ECU, โมดูล, มาตรวัด, เซนเซอร์ และอะไหล่ขนาดเล็ก"
+               data-en="Best for ECUs, modules, gauges, sensors, and smaller high-value parts.">
+              เหมาะสำหรับ ECU, โมดูล, มาตรวัด, เซนเซอร์ และอะไหล่ขนาดเล็ก
+            </p>
+            <strong>ประมาณ 3–10 วัน / ~3–10 days</strong>
+          </article>
+          <article class="info-card">
+            <span class="card-icon">▣</span>
+            <h3 data-th="พัสดุมาตรฐาน" data-en="Standard Parcel">พัสดุมาตรฐาน</h3>
+            <p data-th="สำหรับอะไหล่ขนาดกลางเมื่อเวลาไม่เร่งด่วน"
+               data-en="For medium-size parts when lower cost is more important than speed.">
+              สำหรับอะไหล่ขนาดกลางเมื่อเวลาไม่เร่งด่วน
+            </p>
+            <strong>ระยะเวลาตามปลายทาง / Varies by destination</strong>
+          </article>
+          <article class="info-card">
+            <span class="card-icon">⚓</span>
+            <h3 data-th="รวมส่ง / ขนส่งทางเรือ" data-en="Consolidated / Sea Freight">รวมส่ง / ขนส่งทางเรือ</h3>
+            <p data-th="เหมาะสำหรับอะไหล่ใหญ่หรือคำสั่งซื้อหลายชิ้น เช่น แฟริ่ง ล้อ หรือชุดเครื่องยนต์"
+               data-en="Best for bulky parts or combined orders such as fairings, wheels, or engine assemblies.">
+              เหมาะสำหรับอะไหล่ใหญ่หรือคำสั่งซื้อหลายชิ้น เช่น แฟริ่ง ล้อ หรือชุดเครื่องยนต์
+            </p>
+            <strong>ประมาณ 25–45+ วัน / ~25–45+ days</strong>
+          </article>
+        </div>
+        <div class="shipping-note">
+          <strong data-th="หมายเหตุ:" data-en="Note:">หมายเหตุ:</strong>
+          <span data-th="ค่าจัดส่งที่แสดงในรายการสินค้าเป็นค่าประมาณเท่านั้น เราจะยืนยันราคาจริงก่อนสั่งซื้อ"
+                data-en="Shipping shown on product listings is an estimate. Final cost is confirmed before purchase.">
+            ค่าจัดส่งที่แสดงในรายการสินค้าเป็นค่าประมาณเท่านั้น เราจะยืนยันราคาจริงก่อนสั่งซื้อ
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">HOW IT WORKS</span>
+            <h2 data-th="วิธีสั่งซื้อ" data-en="How to Order">วิธีสั่งซื้อ</h2>
+          </div>
+        </div>
+        <div class="steps">
+          <div><b>1</b><h3 data-th="เลือกอะไหล่" data-en="Choose Parts">เลือกอะไหล่</h3><p data-th="ส่ง SKU หรือหมายเลข OEM ที่ต้องการ" data-en="Send us the SKU or OEM numbers you need.">ส่ง SKU หรือหมายเลข OEM ที่ต้องการ</p></div>
+          <div><b>2</b><h3 data-th="ยืนยันสินค้า" data-en="Confirm Availability">ยืนยันสินค้า</h3><p data-th="เราตรวจสอบสต็อก แหล่งสินค้า และสภาพล่าสุด" data-en="We confirm current stock, source availability, and condition.">เราตรวจสอบสต็อก แหล่งสินค้า และสภาพล่าสุด</p></div>
+          <div><b>3</b><h3 data-th="คำนวณจัดส่ง" data-en="Calculate Shipping">คำนวณจัดส่ง</h3><p data-th="คำนวณค่าขนส่งตามน้ำหนัก ขนาด และปลายทาง" data-en="We calculate shipping by weight, dimensions, and destination.">คำนวณค่าขนส่งตามน้ำหนัก ขนาด และปลายทาง</p></div>
+          <div><b>4</b><h3 data-th="ยืนยันคำสั่งซื้อ" data-en="Confirm Order">ยืนยันคำสั่งซื้อ</h3><p data-th="ยืนยันราคารวมและจัดส่งหลังได้รับการอนุมัติ" data-en="Total price is confirmed before the order is placed or shipped.">ยืนยันราคารวมและจัดส่งหลังได้รับการอนุมัติ</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="productModal" class="product-modal">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div id="modalContent"></div>
+  </dialog>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div>
+        <strong>HD Parts Asia</strong>
+        <p data-th="ระบบจัดหาอะไหล่ Harley-Davidson จากสหรัฐฯ สำหรับประเทศไทยและเอเชีย"
+           data-en="Harley-Davidson parts sourcing from the USA for Thailand and Asia.">
+          ระบบจัดหาอะไหล่ Harley-Davidson จากสหรัฐฯ สำหรับประเทศไทยและเอเชีย
+        </p>
+      </div>
+      <span>© <span id="year"></span> HD Parts Asia</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
