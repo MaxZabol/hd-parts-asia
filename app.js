@@ -1,5 +1,5 @@
 let catalog = [];
-let language = localStorage.getItem("hdpa-language") || "th";
+let language = localStorage.getItem("hdpa-language") || "th";\nlet currency = localStorage.getItem("hdpa-currency") || "THB";\nconst THB_PER_USD = 34; // indicative display conversion; checkout/quote remains THB
 
 const $ = (sel) => document.querySelector(sel);
 const grid = $("#inventoryGrid");
@@ -11,6 +11,9 @@ const modal = $("#productModal");
 
 function moneyTHB(value){
   if(value === null || value === undefined || value === "") return "Contact for price";
+  if(currency==="USD"){
+    return "≈ " + new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:2}).format(Number(value)/THB_PER_USD);
+  }
   return new Intl.NumberFormat("th-TH",{style:"currency",currency:"THB",maximumFractionDigits:0}).format(value);
 }
 function moneyUSD(value){
@@ -34,6 +37,13 @@ $("#languageToggle").addEventListener("click",()=>{
   localStorage.setItem("hdpa-language",language);
   applyLanguage();
 });
+$("#currencyToggle").addEventListener("click",()=>{
+  currency = currency==="THB" ? "USD" : "THB";
+  localStorage.setItem("hdpa-currency",currency);
+  $("#currencyToggle").textContent = currency==="THB" ? "฿ THB" : "$ USD";
+  render();
+});
+$("#currencyToggle").textContent = currency==="THB" ? "฿ THB" : "$ USD";
 
 function updateStats(){
   $("#availableCount").textContent = catalog.filter(p=>p.status==="Available").length;
@@ -82,8 +92,8 @@ function render(){
         </div>
         <p class="meta">${esc(descFor(p))}</p>
         <div class="price-row">
-          <div><div class="source-price">${p.priceLabel || "Dealer price"}</div><div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div></div>
-          ${p.shippingEstimate ? '<small>'+esc(p.shippingEstimate)+'</small>' : ""}
+          <div><div class="source-price">${p.priceLabel || "Thailand retail"}</div><div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div></div>
+          ${p.shippingEstimate ? '<small>'+esc(p.shippingEstimate)+'<br><span class="dealer-hint">Dealer pricing available after sign in</span></small>' : '<small class="dealer-hint">Dealer pricing available after sign in</small>'}
         </div>
         <div class="card-actions three-actions">
           <button class="primary-action" data-open="${esc(p.sku)}">Details</button>
