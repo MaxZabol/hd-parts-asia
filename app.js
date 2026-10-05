@@ -1,5 +1,7 @@
 let catalog = [];
-let language = localStorage.getItem("hdpa-language") || "th";\nlet currency = localStorage.getItem("hdpa-currency") || "THB";\nconst THB_PER_USD = 34; // indicative display conversion; checkout/quote remains THB
+let language = localStorage.getItem("hdpa-language") || "th";
+let currency = localStorage.getItem("hdpa-currency") || "THB";
+const THB_PER_USD = 34; // indicative display conversion; checkout/quote remains THB
 
 const $ = (sel) => document.querySelector(sel);
 const grid = $("#inventoryGrid");
