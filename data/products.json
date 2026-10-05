@@ -1,20 +1,684 @@
 [
   {
-    "sku": "TEST-HD-001",
-    "sourceType": "OWNED",
-    "sourceUrl": "",
-    "title": "TEST ITEM — Harley-Davidson Used Part",
-    "thaiTitle": "สินค้าทดสอบ — อะไหล่ Harley-Davidson มือสอง",
-    "oem": "TEST-OEM",
-    "fitment": "Test fitment only — not for sale",
-    "condition": "Used — TEST ITEM",
-    "category": "Test",
-    "shortDescription": "Temporary test product for checking account, favorites, cart, and shipping quote workflow. Do not order.",
-    "thaiDescription": "สินค้าทดสอบชั่วคราวสำหรับตรวจสอบระบบบัญชี รายการโปรด ตะกร้า และการขอใบเสนอราคาค่าจัดส่ง ห้ามสั่งซื้อจริง",
-    "thaiPriceTHB": 2900,
-    "ebayPriceUSD": 99,
-    "shippingEstimate": "TEST: ฿900–1,500 / 5–10 days",
+    "sku": "BIKE001-001",
+    "title": "Right Fairing Speaker Grille / Mesh",
+    "thaiTitle": "Right Fairing Speaker Grille / Mesh",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Like New",
+    "category": "Fairing & Body",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 2500,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
     "status": "Available",
+    "photoGroup": "IMG_7752_result.jpg – IMG_7755_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-002",
+    "title": "Front Nacelle / Instrument Cover Assembly, Denim Black",
+    "thaiTitle": "Front Nacelle / Instrument Cover Assembly, Denim Black",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Good",
+    "category": "Fairing & Body",
+    "shortDescription": "Slight scratches and one small dent visible in the photos.",
+    "thaiDescription": "Slight scratches and one small dent visible in the photos.",
+    "thaiPriceTHB": 3500,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7756_result.jpg – IMG_7762_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-003",
+    "title": "Front Fender — Zephyr Blue / Black Sunglo",
+    "thaiTitle": "Front Fender — Zephyr Blue / Black Sunglo",
+    "oem": "P58900392EPA",
+    "fitment": "Label shows FLHRXS / FLHXS / FLTRXS / FLTRK. Donor bike is 2020 FLTRK; broader year fitment still to be verified.",
+    "condition": "Fair",
+    "category": "Fairing & Body",
+    "shortDescription": "Has dents and scratches visible in the photos.",
+    "thaiDescription": "Has dents and scratches visible in the photos.",
+    "thaiPriceTHB": 4200,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7763_result.jpg – IMG_7769_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-004",
+    "title": "LIMITED Emblem / Badge Set",
+    "thaiTitle": "LIMITED Emblem / Badge Set",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Like New",
+    "category": "Other",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 2900,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7770_result.jpg – IMG_7773_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-005",
+    "title": "Gauge / Instrument Bezel and Console Trim Assembly",
+    "thaiTitle": "Gauge / Instrument Bezel and Console Trim Assembly",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Like New",
+    "category": "Other",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 3900,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7774_result.jpg – IMG_7778_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-006",
+    "title": "Inner Fairing / Dash Housing Assembly",
+    "thaiTitle": "Inner Fairing / Dash Housing Assembly",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Fair",
+    "category": "Fairing & Body",
+    "shortDescription": "Has dents and scratches. One insert nut is missing. Additional scratches visible in the photos.",
+    "thaiDescription": "Has dents and scratches. One insert nut is missing. Additional scratches visible in the photos.",
+    "thaiPriceTHB": 9500,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7779_result.jpg – IMG_7790_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-007",
+    "title": "Painted Fairing / Headlight Surround, Zephyr Blue / Black",
+    "thaiTitle": "Painted Fairing / Headlight Surround, Zephyr Blue / Black",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Damaged",
+    "category": "Fairing & Body",
+    "shortDescription": "Scratched and has a broken mounting point/tab.",
+    "thaiDescription": "Scratched and has a broken mounting point/tab.",
+    "thaiPriceTHB": 8500,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7793_result.jpg – IMG_7801_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-008",
+    "title": "Fairing / Dash Mounting Bracket",
+    "thaiTitle": "Fairing / Dash Mounting Bracket",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Like New",
+    "category": "Fairing & Body",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 1800,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7802_result.jpg – IMG_7806_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-009",
+    "title": "Road Glide Primer Lower Outer Fork Cover Skirt",
+    "thaiTitle": "Road Glide Primer Lower Outer Fork Cover Skirt",
+    "oem": "57000308A",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Like New",
+    "category": "Other",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 3000,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7807_result.jpg – IMG_7812_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-010",
+    "title": "Lower Wind Deflector — Left",
+    "thaiTitle": "Lower Wind Deflector — Left",
+    "oem": "57200066",
+    "fitment": "Confirmed for 2020 FLTRK Road Glide Limited; also listed for FLTRU applications.",
+    "condition": "Like New",
+    "category": "Fairing & Body",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 1700,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7813_result.jpg – IMG_7815_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-011",
+    "title": "Lower Wind Deflector — Right",
+    "thaiTitle": "Lower Wind Deflector — Right",
+    "oem": "57200065",
+    "fitment": "Confirmed for 2020 FLTRK Road Glide Limited; also listed for FLTRU applications.",
+    "condition": "Like New",
+    "category": "Fairing & Body",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 1700,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7817_result.jpg + IMG_7819_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-012",
+    "title": "Road Glide Fairing Air Duct Assembly — photographed side",
+    "thaiTitle": "Road Glide Fairing Air Duct Assembly — photographed side",
+    "oem": "29200139",
+    "fitment": "Market listing confirms as right-side fairing air duct assembly for 2018–2023 Harley Road Glide models; donor is 2020 FLTRK.",
+    "condition": "Like New",
+    "category": "Fairing & Body",
+    "shortDescription": "Owner reports the photographed 29200139 part is like new. A separate opposite-side/left damaged part exists but was not photographed in this batch.",
+    "thaiDescription": "Owner reports the photographed 29200139 part is like new. A separate opposite-side/left damaged part exists but was not photographed in this batch.",
+    "thaiPriceTHB": 2200,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7820_result.jpg – IMG_7824_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-013",
+    "title": "Road Glide Battery Tray / Box Holder",
+    "thaiTitle": "Road Glide Battery Tray / Box Holder",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Like New",
+    "category": "Other",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 2200,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7825_result.jpg – IMG_7828_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-014",
+    "title": "Rear Control Switch Assembly",
+    "thaiTitle": "Rear Control Switch Assembly",
+    "oem": "71400005",
+    "fitment": "Harley rear controls / Tour-Pak sound-system applications; exact fitment list to be finalized for listing.",
+    "condition": "Like New",
+    "category": "Electrical",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 5200,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7829_result.jpg – IMG_7834_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-015",
+    "title": "Tour-Pak Wrap-Around Rear LED Light Assembly",
+    "thaiTitle": "Tour-Pak Wrap-Around Rear LED Light Assembly",
+    "oem": "67800093",
+    "fitment": "Harley LED wrap-around Tour-Pak run/turn/brake lamp assembly; used across multiple Touring / Tour-Pak applications.",
+    "condition": "Good",
+    "category": "Tour-Pak",
+    "shortDescription": "Owner reports some small scratches and scuffs.",
+    "thaiDescription": "Owner reports some small scratches and scuffs.",
+    "thaiPriceTHB": 3800,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7835_result.jpg – IMG_7844_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-016",
+    "title": "Red LED Light / Trim Assembly — exact application pending",
+    "thaiTitle": "Red LED Light / Trim Assembly — exact application pending",
+    "oem": "67800093",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Good",
+    "category": "Electrical",
+    "shortDescription": "Scratches and scuffs. Owner specifically confirms no broken pieces and no cracks.",
+    "thaiDescription": "Scratches and scuffs. Owner specifically confirms no broken pieces and no cracks.",
+    "thaiPriceTHB": 3900,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7845_result.jpg – IMG_7852_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-017",
+    "title": "Touring Tour-Pak Bottom / Lower",
+    "thaiTitle": "Touring Tour-Pak Bottom / Lower",
+    "oem": "53000083",
+    "fitment": "Harley Touring Tour-Pak bottom/lower; owner identified exact OEM 53000083.",
+    "condition": "Damaged",
+    "category": "Tour-Pak",
+    "shortDescription": "Scratches and scuffs, with cracks and dents visible in the photos.",
+    "thaiDescription": "Scratches and scuffs, with cracks and dents visible in the photos.",
+    "thaiPriceTHB": 15900,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7853_result.jpg – IMG_7860_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-018",
+    "title": "2020 Road Glide Limited Fuel Tank",
+    "thaiTitle": "2020 Road Glide Limited Fuel Tank",
+    "oem": "",
+    "fitment": "Donor VIN 1HD1KZF19LB610490; 2020 Harley-Davidson FLTRK Road Glide Limited. 6-gallon Touring fuel tank application.",
+    "condition": "Good",
+    "category": "Fuel Tank",
+    "shortDescription": "Small scuff visible in the photos; owner believes it should buff/polish off. No other damage reported.",
+    "thaiDescription": "Small scuff visible in the photos; owner believes it should buff/polish off. No other damage reported.",
+    "thaiPriceTHB": 19900,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7861_result.jpg – IMG_7868_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-019",
+    "title": "Tour-Pak Latch and Hinge Set",
+    "thaiTitle": "Tour-Pak Latch and Hinge Set",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Good",
+    "category": "Tour-Pak",
+    "shortDescription": "Scratched from use; no breakage reported.",
+    "thaiDescription": "Scratched from use; no breakage reported.",
+    "thaiPriceTHB": 4500,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7869_result.jpg – IMG_7872_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-020",
+    "title": "Tour-Pak Cargo Box Liner",
+    "thaiTitle": "Tour-Pak Cargo Box Liner",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Good",
+    "category": "Tour-Pak",
+    "shortDescription": "Slightly dirty; owner reports it should wash/clean off easily.",
+    "thaiDescription": "Slightly dirty; owner reports it should wash/clean off easily.",
+    "thaiPriceTHB": 3900,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7873_result.jpg – IMG_7877_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-021",
+    "title": "Antenna Assembly",
+    "thaiTitle": "Antenna Assembly",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Like New",
+    "category": "Electrical",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 800,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7878_result.jpg – IMG_7882_result.jpg (IMG_7881 not present in archive)",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-022",
+    "title": "Tour-Pak Cushion / Backrest Pad",
+    "thaiTitle": "Tour-Pak Cushion / Backrest Pad",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Like New",
+    "category": "Tour-Pak",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 2900,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7883_result.jpg – IMG_7884_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-023",
+    "title": "12V Accessory Receptacle / Power Outlet — Tour-Pak",
+    "thaiTitle": "12V Accessory Receptacle / Power Outlet — Tour-Pak",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Like New",
+    "category": "Tour-Pak",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 1500,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7885_result.jpg – IMG_7886_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-025",
+    "title": "Left Saddlebag Latch Assembly",
+    "thaiTitle": "Left Saddlebag Latch Assembly",
+    "oem": "90200521",
+    "fitment": "OEM left saddlebag latch assembly for Harley Touring models. Harley service information pairs 90200520 = right and 90200521 = left.",
+    "condition": "Like New",
+    "category": "Saddlebags",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 7900,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7889_result.jpg – IMG_7893_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-026",
+    "title": "Saddlebag Lid Holder / Support Strap",
+    "thaiTitle": "Saddlebag Lid Holder / Support Strap",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Good",
+    "category": "Saddlebags",
+    "shortDescription": "Good condition. Cloth/fabric lid support strap.",
+    "thaiDescription": "Good condition. Cloth/fabric lid support strap.",
+    "thaiPriceTHB": 600,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7894_result.jpg – IMG_7895_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-027",
+    "title": "Drag Specialties Left Saddlebag Lid Hinge",
+    "thaiTitle": "Drag Specialties Left Saddlebag Lid Hinge",
+    "oem": "3501-1160 / replaces 90200900",
+    "fitment": "Drag Specialties left saddlebag lid hinge kit for 2014-2023 Harley Touring applications.",
+    "condition": "Like New",
+    "category": "Saddlebags",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 2500,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7896_result.jpg – IMG_7897_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-028",
+    "title": "Kickstand / Jiffy Stand",
+    "thaiTitle": "Kickstand / Jiffy Stand",
+    "oem": "50075-07A",
+    "fitment": "2020 FLTRK Road Glide Limited and many Touring applications.",
+    "condition": "Good",
+    "category": "Engine & Chassis",
+    "shortDescription": "Scratched. Owner confirms it is straight and not bent.",
+    "thaiDescription": "Scratched. Owner confirms it is straight and not bent.",
+    "thaiPriceTHB": 2200,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7898_result.jpg – IMG_7901_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-029",
+    "title": "Rear Tour-Pak Reinforcing Plate",
+    "thaiTitle": "Rear Tour-Pak Reinforcing Plate",
+    "oem": "53000091",
+    "fitment": "2014-2020/23 Harley Touring Tour-Pak reinforcing plate applications.",
+    "condition": "Like New",
+    "category": "Tour-Pak",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 3500,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7902_result.jpg – IMG_7903_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-030",
+    "title": "Front Engine Tie Link Bracket",
+    "thaiTitle": "Front Engine Tie Link Bracket",
+    "oem": "16400041",
+    "fitment": "Harley Touring engine mounts/stabilizer link; Harley service catalog identifies 16400041 as BRACKET, tie link.",
+    "condition": "Like New",
+    "category": "Engine & Chassis",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 3200,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7904_result.jpg – IMG_7905_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-031",
+    "title": "Genuine Right Saddlebag Latch Assembly",
+    "thaiTitle": "Genuine Right Saddlebag Latch Assembly",
+    "oem": "90200520",
+    "fitment": "Harley Touring saddlebag latch, right side.",
+    "condition": "Like New",
+    "category": "Saddlebags",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 7900,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7908_result.jpg – IMG_7912_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-032",
+    "title": "Drag Specialties Right Saddlebag Lid Hinge",
+    "thaiTitle": "Drag Specialties Right Saddlebag Lid Hinge",
+    "oem": "3501-1159",
+    "fitment": "Drag Specialties right saddlebag lid hinge kit for 2014-2023 Harley Touring applications.",
+    "condition": "Like New",
+    "category": "Saddlebags",
+    "shortDescription": "Owner reports like new condition.",
+    "thaiDescription": "Owner reports like new condition.",
+    "thaiPriceTHB": 2500,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7913_result.jpg – IMG_7914_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-033",
+    "title": "Right Saddlebag Lid",
+    "thaiTitle": "Right Saddlebag Lid",
+    "oem": "90200411",
+    "fitment": "2014-2023 Harley Touring right saddlebag lid base; painted service number varies by color.",
+    "condition": "Good",
+    "category": "Saddlebags",
+    "shortDescription": "Scratched. No other damage reported yet.",
+    "thaiDescription": "Scratched. No other damage reported yet.",
+    "thaiPriceTHB": 4200,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7915_result.jpg – IMG_7919_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-034",
+    "title": "Genuine Right Saddlebag Latch Faceplate / Cover",
+    "thaiTitle": "Genuine Right Saddlebag Latch Faceplate / Cover",
+    "oem": "90200449",
+    "fitment": "2014-later Harley Touring hard saddlebags; RH.",
+    "condition": "Good",
+    "category": "Saddlebags",
+    "shortDescription": "Scratched.",
+    "thaiDescription": "Scratched.",
+    "thaiPriceTHB": 1600,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7920_result.jpg – IMG_7922_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-035",
+    "title": "Genuine Left Saddlebag Latch Faceplate / Cover",
+    "thaiTitle": "Genuine Left Saddlebag Latch Faceplate / Cover",
+    "oem": "90200448",
+    "fitment": "2014-later Harley Touring hard saddlebags; LH.",
+    "condition": "Fair",
+    "category": "Saddlebags",
+    "shortDescription": "Heavily scratched.",
+    "thaiDescription": "Heavily scratched.",
+    "thaiPriceTHB": 1300,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7923_result.jpg – IMG_7925_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-036",
+    "title": "Engine Cooling Coolant Hose Line Assembly",
+    "thaiTitle": "Engine Cooling Coolant Hose Line Assembly",
+    "oem": "26900256 / superseded or regional 26900256A",
+    "fitment": "Twin-cooled Touring coolant line assembly; Harley service info lists 26900256A for Thailand-market applications and related Touring models.",
+    "condition": "Excellent",
+    "category": "Engine & Chassis",
+    "shortDescription": "Used; owner reports like-new condition.",
+    "thaiDescription": "Used; owner reports like-new condition.",
+    "thaiPriceTHB": 5900,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7926_result.jpg – IMG_7930_result.jpg",
+    "photos": [
+      "assets/placeholder.svg"
+    ]
+  },
+  {
+    "sku": "BIKE001-037",
+    "title": "Front & Rear Wheel Set with Tires and Brake Rotors",
+    "thaiTitle": "Front & Rear Wheel Set with Tires and Brake Rotors",
+    "oem": "",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "condition": "Excellent",
+    "category": "Wheels & Brakes",
+    "shortDescription": "Front and rear wheels sold together with tires and brake rotors. Tires have approximately 10,000 miles. Owner reports excellent condition; rotor measurements are visible in the photos.",
+    "thaiDescription": "Front and rear wheels sold together with tires and brake rotors. Tires have approximately 10,000 miles. Owner reports excellent condition; rotor measurements are visible in the photos.",
+    "thaiPriceTHB": 55000,
+    "priceLabel": "Thailand retail",
+    "shippingEstimate": "Shipping quoted by basket / น้ำหนักและขนาด",
+    "status": "Available",
+    "photoGroup": "IMG_7931_result.jpg – IMG_7940_result.jpg",
     "photos": [
       "assets/placeholder.svg"
     ]
