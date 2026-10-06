@@ -1,10 +1,10 @@
 [
   {
     "sku": "BIKE001-001",
-    "title": "Right Fairing Speaker Grille / Mesh",
+    "title": "Right Fairing Speaker Grille",
     "thaiTitle": "ตะแกรงลำโพงแฟริ่งด้านขวา",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "76000453",
+    "fitment": "2015–2020 Harley-Davidson Road Glide / Road Glide Limited applications; confirmed for 2020 FLTRK.",
     "condition": "Used",
     "category": "Fairing & Body",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -20,14 +20,15 @@
       "assets/products/BIKE001-001/03.jpg",
       "assets/products/BIKE001-001/04.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2015–2020 Harley Road Glide models",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-002",
-    "title": "Front Nacelle / Instrument Cover Assembly, Denim Black",
+    "title": "Front Instrument Housing Cover, Prime",
     "thaiTitle": "ฝาครอบหน้าปัด / หน้ากากหน้า สีดำด้าน",
     "oem": "70900374",
-    "fitment": "2015–2023 Harley-Davidson Road Glide / Road Glide Special / Road Glide Limited. Verify exact fitment before purchase.",
+    "fitment": "2015–2023 Harley-Davidson Road Glide family; confirmed for 2020 FLTRK.",
     "condition": "Used",
     "category": "Fairing & Body",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -47,14 +48,15 @@
       "assets/products/BIKE001-002/07.jpg"
     ],
     "shortFitment": "2015–2023 Harley Road Glide models",
-    "thaiFitment": "Harley Road Glide ปี 2015–2023"
+    "thaiFitment": "Harley Road Glide ปี 2015–2023",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-003",
     "title": "Front Fender — Zephyr Blue / Black Sunglo",
     "thaiTitle": "บังโคลนหน้า Zephyr Blue / Black Sunglo",
-    "oem": "P58900392EPA",
-    "fitment": "Label shows FLHRXS / FLHXS / FLTRXS / FLTRK. Donor bike is 2020 FLTRK; broader year fitment still to be verified.",
+    "oem": "58900392EPA",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited, F03 Zephyr Blue / Black Sunglo.",
     "condition": "Used",
     "category": "Fairing & Body",
     "shortDescription": "Used. Dents and cosmetic scratches are visible. Please review all photos.",
@@ -73,14 +75,15 @@
       "assets/products/BIKE001-003/06.jpg",
       "assets/products/BIKE001-003/07.jpg"
     ],
-    "shortFitment": "Label shows FLHRXS / FLHXS / FLTRXS / FLTRK. Donor bike is 2020 FLTRK; broa…"
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-004",
-    "title": "LIMITED Emblem / Badge Set",
+    "title": "LIMITED Saddlebag Lid Rail Medallion / Badge",
     "thaiTitle": "ชุดตรา LIMITED",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "90200951",
+    "fitment": "2014-later Touring models equipped with compatible saddlebag lid rails; Limited script.",
     "condition": "Used",
     "category": "Other",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -96,14 +99,16 @@
       "assets/products/BIKE001-004/03.jpg",
       "assets/products/BIKE001-004/04.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2014+ Harley Touring w/ lid rails",
+    "partNumberConfidence": "High",
+    "partNumberNote": "90200951 is the kit reference for the left/right Limited medallions; individual medallions are not serviced separately."
   },
   {
     "sku": "BIKE001-005",
-    "title": "Gauge / Instrument Bezel and Console Trim Assembly",
+    "title": "Instrument Cluster Housing & Cover Assembly",
     "thaiTitle": "กรอบหน้าปัดและชุดตกแต่งคอนโซล",
-    "oem": "70900411BYM",
-    "fitment": "Harley-Davidson Road Glide instrument cluster housing cover. Verify exact fitment before purchase.",
+    "oem": "70900413BYM / 70900398BYM / 70900411DH",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited: left housing, right housing and cluster cover.",
     "condition": "Used",
     "category": "Other",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -120,15 +125,16 @@
       "assets/products/BIKE001-005/04.jpg",
       "assets/products/BIKE001-005/05.jpg"
     ],
-    "shortFitment": "Harley Road Glide instrument cluster",
-    "thaiFitment": "Harley Road Glide ชุดหน้าปัด"
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "thaiFitment": "Harley Road Glide ชุดหน้าปัด",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-006",
-    "title": "Inner Fairing / Dash Housing Assembly",
+    "title": "Inner Fairing Assembly, Vivid Black",
     "thaiTitle": "ชุดแฟริ่งด้านใน / เรือนแดชบอร์ด",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "57000374DH",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited and related Road Glide models.",
     "condition": "Used",
     "category": "Fairing & Body",
     "shortDescription": "Used. Cosmetic wear, dents and scratches; one insert nut is missing. Please review all photos.",
@@ -152,14 +158,15 @@
       "assets/products/BIKE001-006/11.jpg",
       "assets/products/BIKE001-006/12.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2020 Harley Road Glide models",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-007",
-    "title": "Painted Fairing / Headlight Surround, Zephyr Blue / Black",
+    "title": "Outer Fairing Service Shell — Zephyr Blue / Black Sunglo",
     "thaiTitle": "แฟริ่งรอบไฟหน้า Zephyr Blue / Black",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "57001002EPA",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited, F03 Zephyr Blue / Black Sunglo.",
     "condition": "Used",
     "category": "Fairing & Body",
     "shortDescription": "Used. Scratches and a broken mounting tab are visible. Please review all photos.",
@@ -180,14 +187,15 @@
       "assets/products/BIKE001-007/08.jpg",
       "assets/products/BIKE001-007/09.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "partNumberConfidence": "High"
   },
   {
     "sku": "BIKE001-008",
-    "title": "Fairing / Dash Mounting Bracket",
+    "title": "Inner Fairing Mount Bracket",
     "thaiTitle": "ขายึดแฟริ่ง / แดชบอร์ด",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "47200266",
+    "fitment": "2015–2020+ Harley-Davidson Road Glide family; confirmed for 2020 FLTRK.",
     "condition": "Used",
     "category": "Fairing & Body",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -204,14 +212,15 @@
       "assets/products/BIKE001-008/04.jpg",
       "assets/products/BIKE001-008/05.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2015+ Harley Road Glide models",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-009",
-    "title": "Road Glide Primer Lower Outer Fork Cover Skirt",
+    "title": "Fairing Outer Skirt — Black",
     "thaiTitle": "ฝาครอบโช้คหน้าล่าง Road Glide 57000308A",
-    "oem": "57000308A",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "57000509DH",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited / Road Glide applications.",
     "condition": "Used",
     "category": "Other",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -229,14 +238,15 @@
       "assets/products/BIKE001-009/05.jpg",
       "assets/products/BIKE001-009/06.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2020 Harley Road Glide models",
+    "partNumberConfidence": "High"
   },
   {
     "sku": "BIKE001-010",
     "title": "Lower Wind Deflector — Left",
     "thaiTitle": "แผ่นบังลมล่าง ฝั่งซ้าย",
     "oem": "57200066",
-    "fitment": "Confirmed for 2020 FLTRK Road Glide Limited; also listed for FLTRU applications.",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited; left wind deflector.",
     "condition": "Used",
     "category": "Fairing & Body",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -251,14 +261,15 @@
       "assets/products/BIKE001-010/02.jpg",
       "assets/products/BIKE001-010/03.jpg"
     ],
-    "shortFitment": "Confirmed for 2020 FLTRK Road Glide Limited; also listed for FLTRU applicat…"
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-011",
     "title": "Lower Wind Deflector — Right",
     "thaiTitle": "แผ่นบังลมล่าง ฝั่งขวา",
     "oem": "57200065",
-    "fitment": "Confirmed for 2020 FLTRK Road Glide Limited; also listed for FLTRU applications.",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited; right wind deflector.",
     "condition": "Used",
     "category": "Fairing & Body",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -272,14 +283,15 @@
       "assets/products/BIKE001-011/01.jpg",
       "assets/products/BIKE001-011/02.jpg"
     ],
-    "shortFitment": "Confirmed for 2020 FLTRK Road Glide Limited; also listed for FLTRU applicat…"
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-012",
-    "title": "Road Glide Fairing Air Duct Assembly — photographed side",
+    "title": "Right Fairing Air Duct / Front Vent Shell",
     "thaiTitle": "ท่อลมแฟริ่ง Road Glide ฝั่งขวา",
-    "oem": "29200139",
-    "fitment": "Market listing confirms as right-side fairing air duct assembly for 2018–2023 Harley Road Glide models; donor is 2020 FLTRK.",
+    "oem": "29200138",
+    "fitment": "Harley-Davidson Road Glide right-side fairing air duct / front vent; molded part number is visible on the photographed part.",
     "condition": "Used",
     "category": "Fairing & Body",
     "shortDescription": "Used in excellent condition. Minor cosmetic marks from normal use may be present.",
@@ -296,14 +308,15 @@
       "assets/products/BIKE001-012/04.jpg",
       "assets/products/BIKE001-012/05.jpg"
     ],
-    "shortFitment": "Market listing confirms as right-side fairing air duct assembly for 2018–20…"
+    "shortFitment": "Harley Road Glide right-side duct",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-013",
-    "title": "Road Glide Battery Tray / Box Holder",
+    "title": "Battery Tray Assembly",
     "thaiTitle": "ถาด / กล่องรองแบตเตอรี่ Road Glide",
     "oem": "66000010A",
-    "fitment": "2014–2023 Harley-Davidson Touring models including Road Glide, Street Glide and Road King. Verify exact fitment before purchase.",
+    "fitment": "2014–2023 Harley-Davidson Touring models including Road Glide, Street Glide and Road King.",
     "condition": "Used",
     "category": "Other",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -321,14 +334,15 @@
     ],
     "shortFitment": "2014–2023 Harley Touring models",
     "thaiFitment": "Harley Touring ปี 2014–2023",
-    "thumbnail": "assets/products/BIKE001-013/03.jpg"
+    "thumbnail": "assets/products/BIKE001-013/03.jpg",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-014",
-    "title": "Rear Control Switch Assembly",
+    "title": "Rear Speaker Control Switch Assembly",
     "thaiTitle": "ชุดสวิตช์ควบคุมด้านหลัง",
     "oem": "71400005",
-    "fitment": "Harley rear controls / Tour-Pak sound-system applications; exact fitment list to be finalized for listing.",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited and Ultra Tour-Pak applications.",
     "condition": "Used",
     "category": "Electrical",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -346,14 +360,15 @@
       "assets/products/BIKE001-014/05.jpg",
       "assets/products/BIKE001-014/06.jpg"
     ],
-    "shortFitment": "Harley rear controls / Tour-Pak sound-system applications; exact fitment li…"
+    "shortFitment": "2020 FLTRK / Ultra Tour-Pak",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-015",
-    "title": "Tour-Pak Wrap-Around Rear LED Light Assembly",
+    "title": "Tour-Pak Wrap-Around Rear Lamp",
     "thaiTitle": "ชุดไฟ LED รอบ Tour-Pak ด้านหลัง",
     "oem": "67800093",
-    "fitment": "Harley LED wrap-around Tour-Pak run/turn/brake lamp assembly; used across multiple Touring / Tour-Pak applications.",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited domestic Tour-Pak lamp.",
     "condition": "Used",
     "category": "Tour-Pak",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -375,14 +390,15 @@
       "assets/products/BIKE001-015/09.jpg",
       "assets/products/BIKE001-015/10.jpg"
     ],
-    "shortFitment": "Harley LED wrap-around Tour-Pak run/turn/brake lamp assembly; used across m…"
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-016",
-    "title": "Red LED Light / Trim Assembly — exact application pending",
+    "title": "Right Tour-Pak Side Marker Light",
     "thaiTitle": "ชุดไฟ LED / ชิ้นตกแต่งสีแดง",
-    "oem": "67800093",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "53788-06",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited domestic right-bottom Tour-Pak sidemarker.",
     "condition": "Used",
     "category": "Electrical",
     "shortDescription": "Used in good condition. Cosmetic scuffs and scratches; no cracks or broken pieces.",
@@ -402,14 +418,15 @@
       "assets/products/BIKE001-016/07.jpg",
       "assets/products/BIKE001-016/08.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-017",
-    "title": "Touring Tour-Pak Bottom / Lower",
+    "title": "Tour-Pak Drilled Bottom — Zephyr Blue / Black Sunglo",
     "thaiTitle": "ฐานล่าง Tour-Pak",
-    "oem": "53000083",
-    "fitment": "Harley Touring Tour-Pak bottom/lower; identified part number 53000083.",
+    "oem": "53000790EPB",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited, F03 Zephyr Blue / Black Sunglo.",
     "condition": "Used",
     "category": "Tour-Pak",
     "shortDescription": "Used. Scratches, scuffs, cracks and dents are visible. Please review all photos.",
@@ -429,14 +446,15 @@
       "assets/products/BIKE001-017/07.jpg",
       "assets/products/BIKE001-017/08.jpg"
     ],
-    "shortFitment": "Harley Touring Tour-Pak bottom/lower; identified part number 53000083."
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-018",
-    "title": "2020 Road Glide Limited Fuel Tank",
+    "title": "Fuel Tank Assembly — Zephyr Blue / Black Sunglo",
     "thaiTitle": "ถังน้ำมัน Road Glide Limited ปี 2020",
-    "oem": "",
-    "fitment": "Donor VIN 1HD1KZF19LB610490; 2020 Harley-Davidson FLTRK Road Glide Limited. 6-gallon Touring fuel tank application.",
+    "oem": "61000522EPA",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited, F03 Zephyr Blue / Black Sunglo.",
     "condition": "Used",
     "category": "Fuel Tank",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -456,14 +474,15 @@
       "assets/products/BIKE001-018/07.jpg",
       "assets/products/BIKE001-018/08.jpg"
     ],
-    "shortFitment": "Donor VIN 1HD1KZF19LB610490; 2020 Harley-Davidson FLTRK Road Glide Limited.…"
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-019",
-    "title": "Tour-Pak Latch and Hinge Set",
+    "title": "Tour-Pak Hasp & Hinge Set — Gloss Black",
     "thaiTitle": "ชุดตัวล็อกและบานพับ Tour-Pak",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "53000342 / 53000344 / 53000345",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited Tour-Pak: bottom hasp, rear hinge and front hinge.",
     "condition": "Used",
     "category": "Tour-Pak",
     "shortDescription": "Used in good condition. Cosmetic scratches from normal use; no breakage noted.",
@@ -479,14 +498,15 @@
       "assets/products/BIKE001-019/03.jpg",
       "assets/products/BIKE001-019/04.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2020 FLTRK Tour-Pak",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-020",
-    "title": "Tour-Pak Cargo Box Liner",
+    "title": "Tour-Pak Molded Liner with Pouch",
     "thaiTitle": "แผ่นบุภายในกล่อง Tour-Pak",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "53000124",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited / FLHTK Tour-Pak.",
     "condition": "Used",
     "category": "Tour-Pak",
     "shortDescription": "Used in good condition. Light dirt/wear from normal use.",
@@ -503,14 +523,15 @@
       "assets/products/BIKE001-020/04.jpg",
       "assets/products/BIKE001-020/05.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2020 FLTRK / FLHTK Tour-Pak",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-021",
-    "title": "Antenna Assembly",
+    "title": "AM/FM Antenna Mast",
     "thaiTitle": "ชุดเสาอากาศ",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "76000799",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited and other Touring models.",
     "condition": "Used",
     "category": "Electrical",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -526,14 +547,15 @@
       "assets/products/BIKE001-021/03.jpg",
       "assets/products/BIKE001-021/04.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2020 Harley Touring models",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-022",
-    "title": "Tour-Pak Cushion / Backrest Pad",
+    "title": "Passenger Backrest Cushion / Pad Component",
     "thaiTitle": "เบาะพิงหลัง / พนักพิง Tour-Pak",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "52300053",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited passenger backrest assembly.",
     "condition": "Used",
     "category": "Tour-Pak",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -547,14 +569,16 @@
       "assets/products/BIKE001-022/01.jpg",
       "assets/products/BIKE001-022/02.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2020 FLTRK passenger backrest",
+    "partNumberConfidence": "Medium",
+    "partNumberNote": "52300053 is the complete passenger backrest assembly reference; the photographed cushion/pad is not separately serviced in the 2020 catalog."
   },
   {
     "sku": "BIKE001-023",
-    "title": "12V Accessory Receptacle / Power Outlet — Tour-Pak",
+    "title": "Tour-Pak 12V Auxiliary Power Outlet Kit",
     "thaiTitle": "ช่องจ่ายไฟ 12V สำหรับ Tour-Pak",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "69200826",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited / Ultra Tour-Pak applications.",
     "condition": "Used",
     "category": "Tour-Pak",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -568,14 +592,15 @@
       "assets/products/BIKE001-023/01.jpg",
       "assets/products/BIKE001-023/02.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2020 FLTRK / Ultra Tour-Pak",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-025",
     "title": "Left Saddlebag Latch Assembly",
     "thaiTitle": "ชุดกลอนกระเป๋าข้าง ฝั่งซ้าย",
     "oem": "90200521",
-    "fitment": "OEM left saddlebag latch assembly for Harley Touring models. Harley service information pairs 90200520 = right and 90200521 = left.",
+    "fitment": "2014-later Harley-Davidson Touring hard saddlebags; left side.",
     "condition": "Used",
     "category": "Saddlebags",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -592,14 +617,15 @@
       "assets/products/BIKE001-025/04.jpg",
       "assets/products/BIKE001-025/05.jpg"
     ],
-    "shortFitment": "OEM left saddlebag latch assembly for Harley Touring models. Harley service…"
+    "shortFitment": "2014+ Harley Touring",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-026",
-    "title": "Saddlebag Lid Holder / Support Strap",
+    "title": "Tour-Pak Storage Pouch",
     "thaiTitle": "สายพยุงฝากระเป๋าข้าง",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "53165-89A",
+    "fitment": "Harley-Davidson Tour-Pak storage pouch. On the 2020 FLTRK, the molded liner is serviced as 53000124 with pouch.",
     "condition": "Used",
     "category": "Saddlebags",
     "shortDescription": "Used in good condition. Normal wear from use.",
@@ -613,14 +639,16 @@
       "assets/products/BIKE001-026/01.jpg",
       "assets/products/BIKE001-026/02.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "Harley Tour-Pak",
+    "partNumberConfidence": "Medium",
+    "partNumberNote": "53165-89A is the standalone legacy pouch service number; the 2020 FLTRK catalog services the molded liner and pouch together as 53000124."
   },
   {
     "sku": "BIKE001-027",
     "title": "Drag Specialties Left Saddlebag Lid Hinge",
     "thaiTitle": "บานพับฝากระเป๋าข้างซ้าย Drag Specialties",
-    "oem": "3501-1160 / replaces 90200900",
-    "fitment": "Drag Specialties left saddlebag lid hinge kit for 2014-2023 Harley Touring applications.",
+    "oem": "3501-1160 / OEM 90200900",
+    "fitment": "2014–2023 Harley-Davidson Touring hard saddlebags; left hinge replacement.",
     "condition": "Used",
     "category": "Saddlebags",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -634,14 +662,15 @@
       "assets/products/BIKE001-027/01.jpg",
       "assets/products/BIKE001-027/02.jpg"
     ],
-    "shortFitment": "Drag Specialties left saddlebag lid hinge kit for 2014-2023 Harley Touring…"
+    "shortFitment": "2014–2023 Harley Touring",
+    "partNumberConfidence": "High"
   },
   {
     "sku": "BIKE001-028",
     "title": "Kickstand / Jiffy Stand",
     "thaiTitle": "ขาตั้งข้าง / Jiffy Stand",
     "oem": "50075-07A",
-    "fitment": "2020 FLTRK Road Glide Limited and many Touring applications.",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited and many Touring applications.",
     "condition": "Used",
     "category": "Engine & Chassis",
     "shortDescription": "Used in good condition. Cosmetic scratches; stand is straight and not bent.",
@@ -657,14 +686,15 @@
       "assets/products/BIKE001-028/03.jpg",
       "assets/products/BIKE001-028/04.jpg"
     ],
-    "shortFitment": "2020 FLTRK Road Glide Limited and many Touring applications."
+    "shortFitment": "2020 FLTRK / Touring",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-029",
-    "title": "Rear Tour-Pak Reinforcing Plate",
+    "title": "Tour-Pak Reinforcing Plate",
     "thaiTitle": "แผ่นเสริมความแข็งแรง Tour-Pak ด้านหลัง",
     "oem": "53000091",
-    "fitment": "2014-2020/23 Harley Touring Tour-Pak reinforcing plate applications.",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited / FLHTK Tour-Pak.",
     "condition": "Used",
     "category": "Tour-Pak",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -678,14 +708,15 @@
       "assets/products/BIKE001-029/01.jpg",
       "assets/products/BIKE001-029/02.jpg"
     ],
-    "shortFitment": "2014-2020/23 Harley Touring Tour-Pak reinforcing plate applications."
+    "shortFitment": "2020 FLTRK / FLHTK Tour-Pak",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-030",
     "title": "Front Engine Tie Link Bracket",
     "thaiTitle": "ขายึด Tie Link เครื่องยนต์ด้านหน้า",
     "oem": "16400041",
-    "fitment": "Harley Touring engine mounts/stabilizer link; Harley service catalog identifies 16400041 as BRACKET, tie link.",
+    "fitment": "Harley-Davidson Touring engine stabilizer / tie-link bracket applications.",
     "condition": "Used",
     "category": "Engine & Chassis",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -699,14 +730,15 @@
       "assets/products/BIKE001-030/01.jpg",
       "assets/products/BIKE001-030/02.jpg"
     ],
-    "shortFitment": "Harley Touring engine mounts/stabilizer link; Harley service catalog identi…"
+    "shortFitment": "Harley Touring models",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-031",
-    "title": "Genuine Right Saddlebag Latch Assembly",
+    "title": "Right Saddlebag Latch Assembly",
     "thaiTitle": "ชุดกลอนกระเป๋าข้างแท้ ฝั่งขวา",
     "oem": "90200520",
-    "fitment": "Harley Touring saddlebag latch, right side.",
+    "fitment": "2014-later Harley-Davidson Touring hard saddlebags; right side.",
     "condition": "Used",
     "category": "Saddlebags",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -723,14 +755,15 @@
       "assets/products/BIKE001-031/04.jpg",
       "assets/products/BIKE001-031/05.jpg"
     ],
-    "shortFitment": "Harley Touring saddlebag latch, right side."
+    "shortFitment": "2014+ Harley Touring",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-032",
     "title": "Drag Specialties Right Saddlebag Lid Hinge",
     "thaiTitle": "บานพับฝากระเป๋าข้างขวา Drag Specialties",
-    "oem": "3501-1159",
-    "fitment": "Drag Specialties right saddlebag lid hinge kit for 2014-2023 Harley Touring applications.",
+    "oem": "3501-1159 / OEM 90200899",
+    "fitment": "2014–2023 Harley-Davidson Touring hard saddlebags; right hinge replacement.",
     "condition": "Used",
     "category": "Saddlebags",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -744,14 +777,15 @@
       "assets/products/BIKE001-032/01.jpg",
       "assets/products/BIKE001-032/02.jpg"
     ],
-    "shortFitment": "Drag Specialties right saddlebag lid hinge kit for 2014-2023 Harley Touring…"
+    "shortFitment": "2014–2023 Harley Touring",
+    "partNumberConfidence": "High"
   },
   {
     "sku": "BIKE001-033",
-    "title": "Right Saddlebag Lid",
+    "title": "Right Saddlebag Lid — Zephyr Blue / Black Sunglo",
     "thaiTitle": "ฝากระเป๋าข้าง ฝั่งขวา",
-    "oem": "90200411",
-    "fitment": "2014-2023 Harley Touring right saddlebag lid base; painted service number varies by color.",
+    "oem": "90201056EPB / base 90200411",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited, F03 Zephyr Blue / Black Sunglo; right saddlebag cover.",
     "condition": "Used",
     "category": "Saddlebags",
     "shortDescription": "Used. Cosmetic scratches from prior use. Please review all photos.",
@@ -768,14 +802,15 @@
       "assets/products/BIKE001-033/04.jpg",
       "assets/products/BIKE001-033/05.jpg"
     ],
-    "shortFitment": "2014-2023 Harley Touring right saddlebag lid base; painted service number v…"
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-034",
-    "title": "Genuine Right Saddlebag Latch Faceplate / Cover",
+    "title": "Right Saddlebag Faceplate — Black",
     "thaiTitle": "ฝาครอบกลอนกระเป๋าข้างแท้ ฝั่งขวา",
-    "oem": "90200449",
-    "fitment": "2014-later Harley Touring hard saddlebags; RH.",
+    "oem": "90200984DH",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited / Touring hard saddlebag; right side.",
     "condition": "Used",
     "category": "Saddlebags",
     "shortDescription": "Used. Cosmetic scratches from prior use. Please review all photos.",
@@ -790,14 +825,15 @@
       "assets/products/BIKE001-034/02.jpg",
       "assets/products/BIKE001-034/03.jpg"
     ],
-    "shortFitment": "2014-later Harley Touring hard saddlebags; RH."
+    "shortFitment": "2020 Harley Touring",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-035",
-    "title": "Genuine Left Saddlebag Latch Faceplate / Cover",
+    "title": "Left Saddlebag Faceplate — Black",
     "thaiTitle": "ฝาครอบกลอนกระเป๋าข้างแท้ ฝั่งซ้าย",
-    "oem": "90200448",
-    "fitment": "2014-later Harley Touring hard saddlebags; LH.",
+    "oem": "90200983DH",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited / Touring hard saddlebag; left side.",
     "condition": "Used",
     "category": "Saddlebags",
     "shortDescription": "Used. Heavy cosmetic scratches from prior use. Please review all photos.",
@@ -812,14 +848,15 @@
       "assets/products/BIKE001-035/02.jpg",
       "assets/products/BIKE001-035/03.jpg"
     ],
-    "shortFitment": "2014-later Harley Touring hard saddlebags; LH."
+    "shortFitment": "2020 Harley Touring",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-036",
-    "title": "Engine Cooling Coolant Hose Line Assembly",
+    "title": "Twin-Cooled Water Coolant Line Assembly",
     "thaiTitle": "ชุดท่อน้ำหล่อเย็นเครื่องยนต์",
-    "oem": "26900256 / superseded or regional 26900256A",
-    "fitment": "Twin-cooled Touring coolant line assembly; Harley service info lists 26900256A for Thailand-market applications and related Touring models.",
+    "oem": "26900133",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited Twin-Cooled engine.",
     "condition": "Used",
     "category": "Engine & Chassis",
     "shortDescription": "Used in excellent condition. Minor signs of normal use may be present.",
@@ -836,14 +873,15 @@
       "assets/products/BIKE001-036/04.jpg",
       "assets/products/BIKE001-036/05.jpg"
     ],
-    "shortFitment": "Twin-cooled Touring coolant line assembly; Harley service info lists 269002…"
+    "shortFitment": "2020 FLTRK Twin-Cooled",
+    "partNumberConfidence": "Confirmed"
   },
   {
     "sku": "BIKE001-037",
     "title": "Front & Rear Wheel Set with Tires and Brake Rotors",
     "thaiTitle": "ชุดล้อหน้า-หลัง พร้อมยางและจานเบรก",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "Front wheel 43300627; Rear wheel 40900603; Front rotors 41500157 x2; Rear rotor 41810-08B; Front tire 44026-09A; Rear tire 43200045",
+    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited, gloss-black 7-spoke wheel set.",
     "condition": "Used",
     "category": "Wheels & Brakes",
     "shortDescription": "Used in excellent condition. Tires have approximately 10,000 miles. Review photos for rotor measurements and cosmetic condition.",
@@ -865,6 +903,7 @@
       "assets/products/BIKE001-037/09.jpg",
       "assets/products/BIKE001-037/10.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "partNumberConfidence": "High"
   }
 ]
