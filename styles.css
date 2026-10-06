@@ -141,3 +141,25 @@ footer{background:#0d1b2c;color:#fff;padding:35px 0}.footer-wrap{display:flex;ju
   .lightbox-nav{width:44px;height:44px;font-size:32px}
   .lightbox-nav.prev{left:8px}.lightbox-nav.next{right:8px}
 }
+
+/* Card visibility fix: no clipped information on catalog cards */
+.part-card{height:535px}
+.part-photo{height:250px;min-height:250px;padding:16px}
+.part-photo img{object-fit:contain!important;object-position:center!important}
+.part-body{padding:16px}
+.part-topline{min-height:68px}
+.card-info{min-height:92px;overflow:hidden}
+.card-info .meta{margin:6px 0}
+.card-info .condition-note{
+  margin:6px 0 0;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.price-row{min-height:66px;align-items:center}
+.thai-price{white-space:nowrap;line-height:1.1}
+.source-price{white-space:nowrap}
+.price-row small{max-width:58%;line-height:1.35}
+@media(max-width:900px){.part-card{height:535px}}
+@media(max-width:620px){.part-card{height:535px;min-height:535px}}
