@@ -250,3 +250,12 @@ footer{background:#0d1b2c;color:#fff;padding:35px 0}.footer-wrap{display:flex;ju
   background-position:center center!important;
   background-repeat:no-repeat!important;
 }
+
+/* Show audited part numbers cleanly on catalog cards */
+.card-summary{min-height:68px!important}
+.part-number-line{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  margin-bottom:4px;
+}
