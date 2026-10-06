@@ -92,10 +92,9 @@ function render(){
           <div><div class="sku">${esc(p.sku || "")}</div><div class="part-title">${esc(titleFor(p))}</div></div>
           <span class="badge ${slugStatus(p.status)}">${esc(p.status)}</span>
         </div>
-        <div class="card-scroll">
+        <div class="card-info">
           <div class="meta">
             ${p.oem ? "<div><b>Part #:</b> "+esc(p.oem)+"</div>" : ""}
-            ${p.fitment ? "<div><b>Fits:</b> "+esc(p.fitment)+"</div>" : ""}
             <div><b>Condition:</b> Used</div>
           </div>
           <p class="condition-note">${esc(descFor(p))}</p>
