@@ -214,7 +214,7 @@ modal.addEventListener("click",e=>{if(e.target===modal)modal.close();});
 [searchInput,categoryFilter,statusFilter].forEach(el=>el.addEventListener("input",render));
 $("#year").textContent=new Date().getFullYear();
 
-fetch("data/products.json?v=20261005-9",{cache:"no-store"})
+fetch("data/products.json?v=20261005-12",{cache:"no-store"})
  .then(r=>{if(!r.ok)throw new Error("catalog");return r.json();})
  .then(data=>{catalog=Array.isArray(data)?data:[];buildFilters();updateStats();applyLanguage();})
  .catch(()=>{catalog=[];updateStats();applyLanguage();});
