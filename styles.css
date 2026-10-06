@@ -242,3 +242,11 @@ footer{background:#0d1b2c;color:#fff;padding:35px 0}.footer-wrap{display:flex;ju
   clip:rect(0,0,0,0)!important;
   white-space:nowrap!important;
 }
+
+/* Extra landing-photo breathing room */
+.part-photo-bg{
+  inset:26px!important;
+  background-size:contain!important;
+  background-position:center center!important;
+  background-repeat:no-repeat!important;
+}
