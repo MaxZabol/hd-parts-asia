@@ -86,7 +86,8 @@ function render(){
     const shortFit = language==="th" ? (p.thaiFitment || p.shortFitment || p.fitment || "") : (p.shortFitment || p.fitment || "");
     card.innerHTML=`
       <button class="part-photo" type="button" data-open="${esc(p.sku)}" aria-label="Open ${esc(titleFor(p))}">
-        <img src="${esc(photo)}" alt="${esc(titleFor(p))}" loading="lazy">
+        <span class="part-photo-bg" style="background-image:url('${esc(photo)}')"></span>
+        <img class="sr-product-img" src="${esc(photo)}" alt="${esc(titleFor(p))}" loading="lazy">
       </button>
       <div class="part-body">
         <div class="part-topline">
