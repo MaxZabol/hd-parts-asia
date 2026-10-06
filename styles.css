@@ -163,3 +163,53 @@ footer{background:#0d1b2c;color:#fff;padding:35px 0}.footer-wrap{display:flex;ju
 .price-row small{max-width:58%;line-height:1.35}
 @media(max-width:900px){.part-card{height:535px}}
 @media(max-width:620px){.part-card{height:535px;min-height:535px}}
+
+/* Compact catalog cards: full image, no inner scroll, key info only */
+.part-card{height:500px!important;overflow:hidden}
+.part-photo{
+  height:270px!important;
+  min-height:270px!important;
+  max-height:270px!important;
+  padding:18px!important;
+  overflow:hidden!important;
+  background:#fff!important;
+}
+.part-photo img{
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+}
+.part-body{padding:14px 16px 14px!important}
+.part-topline{min-height:60px!important}
+.part-title{-webkit-line-clamp:2!important;line-height:1.25}
+.card-summary{
+  min-height:52px;
+  font-size:12px;
+  line-height:1.45;
+  color:var(--muted);
+  overflow:hidden;
+}
+.fit-one-line{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  margin-bottom:5px;
+}
+.price-only{
+  margin-top:auto;
+  padding-top:10px;
+  border-top:1px solid var(--line);
+  color:var(--red);
+  font-size:25px;
+  font-weight:800;
+  line-height:1.1;
+  white-space:nowrap;
+}
+.card-actions{margin-top:10px!important}
+.card-scroll,.card-info{display:none!important}
+@media(max-width:900px){.part-card{height:500px!important}}
+@media(max-width:620px){.part-card{height:500px!important;min-height:500px!important}}
