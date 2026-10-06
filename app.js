@@ -95,6 +95,7 @@ function render(){
           <span class="badge ${slugStatus(p.status)}">${esc(p.status)}</span>
         </div>
         <div class="card-summary">
+          ${p.oem ? '<div class="part-number-line"><b>Part #:</b> '+esc(p.oem)+'</div>' : ""}
           ${shortFit ? '<div class="fit-one-line"><b>Fits:</b> '+esc(shortFit)+'</div>' : ""}
           <div><b>Condition:</b> Used</div>
         </div>
@@ -214,7 +215,7 @@ modal.addEventListener("click",e=>{if(e.target===modal)modal.close();});
 [searchInput,categoryFilter,statusFilter].forEach(el=>el.addEventListener("input",render));
 $("#year").textContent=new Date().getFullYear();
 
-fetch("data/products.json?v=20261005-12",{cache:"no-store"})
+fetch("data/products.json?v=20261005-13",{cache:"no-store"})
  .then(r=>{if(!r.ok)throw new Error("catalog");return r.json();})
  .then(data=>{catalog=Array.isArray(data)?data:[];buildFilters();updateStats();applyLanguage();})
  .catch(()=>{catalog=[];updateStats();applyLanguage();});
