@@ -213,3 +213,32 @@ footer{background:#0d1b2c;color:#fff;padding:35px 0}.footer-wrap{display:flex;ju
 .card-scroll,.card-info{display:none!important}
 @media(max-width:900px){.part-card{height:500px!important}}
 @media(max-width:620px){.part-card{height:500px!important;min-height:500px!important}}
+
+/* Definitive landing photo fix: always show the entire source photo */
+.part-photo{
+  position:relative!important;
+  display:block!important;
+  width:100%!important;
+  height:270px!important;
+  min-height:270px!important;
+  max-height:270px!important;
+  padding:0!important;
+  overflow:hidden!important;
+  background:#fff!important;
+}
+.part-photo-bg{
+  position:absolute!important;
+  inset:12px!important;
+  display:block!important;
+  background-repeat:no-repeat!important;
+  background-position:center center!important;
+  background-size:contain!important;
+}
+.sr-product-img{
+  position:absolute!important;
+  width:1px!important;
+  height:1px!important;
+  overflow:hidden!important;
+  clip:rect(0,0,0,0)!important;
+  white-space:nowrap!important;
+}
