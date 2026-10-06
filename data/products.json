@@ -302,8 +302,8 @@
     "sku": "BIKE001-013",
     "title": "Road Glide Battery Tray / Box Holder",
     "thaiTitle": "ถาด / กล่องรองแบตเตอรี่ Road Glide",
-    "oem": "",
-    "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor; verify exact fitment before purchase.",
+    "oem": "66000010A",
+    "fitment": "2014–2023 Harley-Davidson Touring models including Road Glide, Street Glide and Road King. Verify exact fitment before purchase.",
     "condition": "Used",
     "category": "Other",
     "shortDescription": "Used in excellent condition. May show minor scuffs, scratches or other signs of normal use.",
@@ -319,7 +319,8 @@
       "assets/products/BIKE001-013/03.jpg",
       "assets/products/BIKE001-013/04.jpg"
     ],
-    "shortFitment": "2020 Harley-Davidson FLTRK Road Glide Limited donor;"
+    "shortFitment": "2014–2023 Harley Touring models",
+    "thaiFitment": "Harley Touring ปี 2014–2023"
   },
   {
     "sku": "BIKE001-014",
