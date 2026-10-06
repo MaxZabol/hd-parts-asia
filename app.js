@@ -134,7 +134,7 @@ function openProduct(sku){
       <h2>${esc(titleFor(p))}</h2><div class="sku">${esc(p.sku)}</div>
       <p class="condition-note">${esc(descFor(p))}</p>
       <dl class="detail-list">
-        <dt>Part #</dt><dd>${esc(p.oem || "Part number being verified")}</dd>
+        ${p.oem ? '<dt>Part #</dt><dd>'+esc(p.oem)+'</dd>' : ''}
         <dt>Fitment</dt><dd>${esc(p.fitment || "—")}</dd>
         <dt>Condition</dt><dd>Used</dd>
         <dt>Location</dt><dd>USA Stock</dd>
