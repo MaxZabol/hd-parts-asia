@@ -83,6 +83,7 @@ function render(){
     const card=document.createElement("article");
     card.className="part-card";
     const photo=(p.photos && p.photos[0]) || "assets/placeholder.svg";
+    const shortFit = language==="th" ? (p.thaiFitment || p.shortFitment || p.fitment || "") : (p.shortFitment || p.fitment || "");
     card.innerHTML=`
       <button class="part-photo" type="button" data-open="${esc(p.sku)}" aria-label="Open ${esc(titleFor(p))}">
         <img src="${esc(photo)}" alt="${esc(titleFor(p))}" loading="lazy">
@@ -92,17 +93,11 @@ function render(){
           <div><div class="sku">${esc(p.sku || "")}</div><div class="part-title">${esc(titleFor(p))}</div></div>
           <span class="badge ${slugStatus(p.status)}">${esc(p.status)}</span>
         </div>
-        <div class="card-info">
-          <div class="meta">
-            ${p.oem ? "<div><b>Part #:</b> "+esc(p.oem)+"</div>" : ""}
-            <div><b>Condition:</b> Used</div>
-          </div>
-          <p class="condition-note">${esc(descFor(p))}</p>
+        <div class="card-summary">
+          ${shortFit ? '<div class="fit-one-line"><b>Fits:</b> '+esc(shortFit)+'</div>' : ""}
+          <div><b>Condition:</b> Used</div>
         </div>
-        <div class="price-row">
-          <div><div class="source-price">${p.priceLabel || "Thailand retail"}</div><div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div></div>
-          ${p.shippingEstimate ? '<small>'+esc(p.shippingEstimate)+'<br><span class="dealer-hint">Dealer pricing available after sign in</span></small>' : '<small class="dealer-hint">Dealer pricing available after sign in</small>'}
-        </div>
+        <div class="price-only">${moneyTHB(p.thaiPriceTHB)}</div>
         <div class="card-actions three-actions">
           <button class="primary-action" data-open="${esc(p.sku)}">Details</button>
           <button class="favorite-action" data-favorite="${esc(p.sku)}" title="Favorite">♡</button>
@@ -138,7 +133,7 @@ function openProduct(sku){
       <h2>${esc(titleFor(p))}</h2><div class="sku">${esc(p.sku)}</div>
       <p class="condition-note">${esc(descFor(p))}</p>
       <dl class="detail-list">
-        <dt>Part #</dt><dd>${esc(p.oem || "—")}</dd>
+        <dt>Part #</dt><dd>${esc(p.oem || "Part number being verified")}</dd>
         <dt>Fitment</dt><dd>${esc(p.fitment || "—")}</dd>
         <dt>Condition</dt><dd>Used</dd>
         <dt>Location</dt><dd>USA Stock</dd>
