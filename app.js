@@ -108,10 +108,23 @@ function render(){
 }
 function openProduct(sku){
   const p=catalog.find(x=>x.sku===sku); if(!p)return;
-  const photo=(p.photos && p.photos[0]) || "assets/placeholder.svg";
+  const photos=(p.photos && p.photos.length ? p.photos : ["assets/placeholder.svg"]);
+  const photo=photos[0];
+  const thumbs=photos.map((src,i)=>`
+    <button class="gallery-thumb ${i===0 ? "active" : ""}" type="button" data-gallery-src="${esc(src)}" aria-label="Photo ${i+1}">
+      <img src="${esc(src)}" alt="${esc(titleFor(p))} photo ${i+1}" loading="lazy">
+    </button>`).join("");
   $("#modalContent").innerHTML=`
    <div class="modal-grid">
-    <div class="modal-image"><img src="${esc(photo)}" alt="${esc(titleFor(p))}"></div>
+    <div class="modal-gallery">
+      <div class="modal-image">
+        <button class="gallery-nav prev" type="button" data-gallery-prev aria-label="Previous photo">‹</button>
+        <img id="galleryMainImage" src="${esc(photo)}" alt="${esc(titleFor(p))}">
+        <button class="gallery-nav next" type="button" data-gallery-next aria-label="Next photo">›</button>
+      </div>
+      <div class="gallery-thumbs">${thumbs}</div>
+      <div class="gallery-count"><span id="galleryCurrent">1</span> / ${photos.length}</div>
+    </div>
     <div class="modal-details">
       <span class="badge ${slugStatus(p.status)}">${esc(p.status)}</span>
       <h2>${esc(titleFor(p))}</h2><div class="sku">${esc(p.sku)}</div>
@@ -120,17 +133,32 @@ function openProduct(sku){
         <dt>OEM</dt><dd>${esc(p.oem || "—")}</dd>
         <dt>Fitment</dt><dd>${esc(p.fitment || "—")}</dd>
         <dt>Condition</dt><dd>${esc(p.condition || "—")}</dd>
-        <dt>Source</dt><dd>${esc(p.sourceType || "—")}</dd>
+        <dt>Location</dt><dd>USA Stock</dd>
         <dt>Shipping</dt><dd>${esc(p.shippingEstimate || "Quote required")}</dd>
       </dl>
       <div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div>
-      ${p.ebayPriceUSD ? '<small>Reference US price: '+moneyUSD(p.ebayPriceUSD)+'</small>' : ""}
+      <div class="dealer-hint">Dealer pricing available after sign in</div>
       <div class="card-actions" style="margin-top:18px">
         <button class="favorite-action" data-favorite="${esc(p.sku)}">♡ Save</button>
         <button class="primary-action cart-action" data-cart="${esc(p.sku)}">🛒 Add to cart</button>
       </div>
     </div>
    </div>`;
+
+  let active=0;
+  const main=$("#galleryMainImage");
+  const current=$("#galleryCurrent");
+  const thumbButtons=[...document.querySelectorAll("[data-gallery-src]")];
+  const showPhoto=(index)=>{
+    active=(index+photos.length)%photos.length;
+    main.src=photos[active];
+    current.textContent=String(active+1);
+    thumbButtons.forEach((b,i)=>b.classList.toggle("active",i===active));
+    thumbButtons[active]?.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"});
+  };
+  thumbButtons.forEach((b,i)=>b.addEventListener("click",()=>showPhoto(i)));
+  document.querySelector("[data-gallery-prev]")?.addEventListener("click",()=>showPhoto(active-1));
+  document.querySelector("[data-gallery-next]")?.addEventListener("click",()=>showPhoto(active+1));
   modal.showModal();
 }
 document.addEventListener("click",e=>{
