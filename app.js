@@ -82,7 +82,7 @@ function render(){
   rows.forEach(p=>{
     const card=document.createElement("article");
     card.className="part-card";
-    const photo=(p.photos && p.photos[0]) || "assets/placeholder.svg";
+    const photo=p.thumbnail || ((p.photos && p.photos[0]) || "assets/placeholder.svg");
     const shortFit = language==="th" ? (p.thaiFitment || p.shortFitment || p.fitment || "") : (p.shortFitment || p.fitment || "");
     card.innerHTML=`
       <button class="part-photo" type="button" data-open="${esc(p.sku)}" aria-label="Open ${esc(titleFor(p))}">
@@ -214,7 +214,7 @@ modal.addEventListener("click",e=>{if(e.target===modal)modal.close();});
 [searchInput,categoryFilter,statusFilter].forEach(el=>el.addEventListener("input",render));
 $("#year").textContent=new Date().getFullYear();
 
-fetch("data/products.json?v=20261005-6",{cache:"no-store"})
+fetch("data/products.json?v=20261005-9",{cache:"no-store"})
  .then(r=>{if(!r.ok)throw new Error("catalog");return r.json();})
  .then(data=>{catalog=Array.isArray(data)?data:[];buildFilters();updateStats();applyLanguage();})
  .catch(()=>{catalog=[];updateStats();applyLanguage();});
