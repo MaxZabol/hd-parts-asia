@@ -73,10 +73,14 @@
       "assets/products/BIKE001-003/04.jpg",
       "assets/products/BIKE001-003/05.jpg",
       "assets/products/BIKE001-003/06.jpg",
-      "assets/products/BIKE001-003/07.jpg"
+      "assets/products/BIKE001-003/07.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/05-donor-motorcycle-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/06-donor-motorcycle-other-side.jpg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
-    "partNumberConfidence": "Confirmed"
+    "partNumberConfidence": "Confirmed",
+    "donorHistory": "Pre-teardown photographs show the front fender installed on the 2020 FLTRK donor. These are overall motorcycle reference views, not proof of undamaged paint. The detached fender has dents and scratches shown in close-ups.",
+    "donorPhotoCount": 2
   },
   {
     "sku": "BIKE001-004",
@@ -185,10 +189,14 @@
       "assets/products/BIKE001-007/06.jpg",
       "assets/products/BIKE001-007/07.jpg",
       "assets/products/BIKE001-007/08.jpg",
-      "assets/products/BIKE001-007/09.jpg"
+      "assets/products/BIKE001-007/09.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/05-donor-motorcycle-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/06-donor-motorcycle-other-side.jpg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
-    "partNumberConfidence": "High"
+    "partNumberConfidence": "High",
+    "donorHistory": "Pre-teardown photographs show the outer fairing fitted to the 2020 FLTRK. Existing close-up photos document scratches and a broken mounting tab; the assembled view does not negate that damage.",
+    "donorPhotoCount": 2
   },
   {
     "sku": "BIKE001-008",
@@ -388,10 +396,14 @@
       "assets/products/BIKE001-015/07.jpg",
       "assets/products/BIKE001-015/08.jpg",
       "assets/products/BIKE001-015/09.jpg",
-      "assets/products/BIKE001-015/10.jpg"
+      "assets/products/BIKE001-015/10.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/05-donor-motorcycle-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/06-donor-motorcycle-other-side.jpg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
-    "partNumberConfidence": "Confirmed"
+    "partNumberConfidence": "Confirmed",
+    "donorHistory": "Donor motorcycle photos provide installed Tour-Pak context for this rear light. See original detached-part photographs for the precise included lamp and condition.",
+    "donorPhotoCount": 2
   },
   {
     "sku": "BIKE001-016",
@@ -444,12 +456,15 @@
       "assets/products/BIKE001-017/05.jpg",
       "assets/products/BIKE001-017/06.jpg",
       "assets/products/BIKE001-017/07.jpg",
-      "assets/products/BIKE001-017/08.jpg"
+      "assets/products/BIKE001-017/08.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/05-donor-motorcycle-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/06-donor-motorcycle-other-side.jpg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
     "partNumberConfidence": "Confirmed",
-    "donorHistory": "Pre-teardown donor motorcycle photos document the installed Tour-Pak and matching paint. Cosmetic condition must be judged from actual part close-up photos.",
-    "donorMileageMiles": 10365
+    "donorHistory": "Pre-teardown donor views show the Tour-Pak installed and its matching Zephyr Blue / Black Sunglo paint. Removed part has scratches, scuffs, cracks and dents; review close-ups.",
+    "donorMileageMiles": 10365,
+    "donorPhotoCount": 2
   },
   {
     "sku": "BIKE001-018",
@@ -474,12 +489,15 @@
       "assets/products/BIKE001-018/05.jpg",
       "assets/products/BIKE001-018/06.jpg",
       "assets/products/BIKE001-018/07.jpg",
-      "assets/products/BIKE001-018/08.jpg"
+      "assets/products/BIKE001-018/08.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/05-donor-motorcycle-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/06-donor-motorcycle-other-side.jpg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
     "partNumberConfidence": "Confirmed",
-    "donorHistory": "Pre-teardown donor photos show fuel tank installed on the 2020 FLTRK. No obvious major external impact damage visible in these views; see detached-tank photos for scuffs and exact condition.",
-    "donorMileageMiles": 10365
+    "donorHistory": "The fuel tank is shown installed on the original 2020 Road Glide Limited donor before teardown. No obvious major external impact damage is visible from these overall views, but detached-tank close-ups are authoritative for scuffs or other defects. No leak test is documented.",
+    "donorMileageMiles": 10365,
+    "donorPhotoCount": 2
   },
   {
     "sku": "BIKE001-019",
@@ -804,12 +822,15 @@
       "assets/products/BIKE001-033/02.jpg",
       "assets/products/BIKE001-033/03.jpg",
       "assets/products/BIKE001-033/04.jpg",
-      "assets/products/BIKE001-033/05.jpg"
+      "assets/products/BIKE001-033/05.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/05-donor-motorcycle-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/06-donor-motorcycle-other-side.jpg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
     "partNumberConfidence": "Confirmed",
-    "donorHistory": "Pre-teardown motorcycle photo shows the saddlebag lid installed and matching donor paint. Detached lid has scratches; review detailed part photos.",
-    "donorMileageMiles": 10365
+    "donorHistory": "Original donor bike reference photographs show the right saddlebag installed before teardown and the matching factory paint appearance. Detached lid has cosmetic scratches; see product close-ups.",
+    "donorMileageMiles": 10365,
+    "donorPhotoCount": 2
   },
   {
     "sku": "BIKE001-034",
@@ -890,7 +911,7 @@
     "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited, gloss-black 7-spoke wheel set.",
     "condition": "Used",
     "category": "Wheels & Brakes",
-    "shortDescription": "Used in excellent condition. Tires have approximately 10,000 miles. Review photos for rotor measurements and cosmetic condition.",
+    "shortDescription": "Used front and rear wheel set with tires and brake rotors from a 2020 FLTRK donor with owner-confirmed 10,365 miles. Donor odometer photo included. Tires and rotors are used; see close-up photographs and verify condition and dimensions before ordering.",
     "thaiDescription": "สินค้ามือสอง สภาพดีเยี่ยม อาจมีรอยเล็กน้อยจากการใช้งานตามปกติ",
     "thaiPriceTHB": 55000,
     "priceLabel": "Thailand retail",
@@ -907,12 +928,16 @@
       "assets/products/BIKE001-037/07.jpg",
       "assets/products/BIKE001-037/08.jpg",
       "assets/products/BIKE001-037/09.jpg",
-      "assets/products/BIKE001-037/10.jpg"
+      "assets/products/BIKE001-037/10.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/05-donor-motorcycle-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/06-donor-motorcycle-other-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/11-odometer-10365-miles.jpeg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
     "partNumberConfidence": "High",
-    "donorHistory": "Front and rear wheel set from 2020 FLTRK donor with owner-reported 10,365 miles. Odometer proof and assembled motorcycle reference photographs available. Wheels are also tracked as alternative separate sale offers BIKE001-099 and BIKE001-100; not additional inventory.",
-    "donorMileageMiles": 10365
+    "donorHistory": "Front and rear wheel set from 2020 FLTRK donor; owner-confirmed donor odometer 10,365 miles. Includes two assembled-bike reference views and a separate odometer evidence photo. This mileage is donor mileage, not a tire-condition or brake-rotor measurement. Actual wheels, tires and rotors must be assessed from component photos and measurements. SAME stock as separate listings BIKE001-099 / BIKE001-100; do not count twice.",
+    "donorMileageMiles": 10365,
+    "donorPhotoCount": 2
   },
   {
     "sku": "BIKE001-116",
