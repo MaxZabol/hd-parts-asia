@@ -259,3 +259,9 @@ footer{background:#0d1b2c;color:#fff;padding:35px 0}.footer-wrap{display:flex;ju
   text-overflow:ellipsis;
   margin-bottom:4px;
 }
+
+/* Optional donor-bike running video displayed only when public media URL exists */
+.donor-video-block{margin-top:16px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:#f7f9fc;display:flex;flex-direction:column;gap:6px}
+.donor-video-link{display:inline-block;font-weight:750;color:var(--blue);text-decoration:none}
+.donor-video-link:hover{text-decoration:underline}
+.donor-video-block small{font-size:12px;line-height:1.45;color:var(--muted)}
