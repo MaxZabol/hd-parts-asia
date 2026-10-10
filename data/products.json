@@ -940,7 +940,8 @@
       "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/07-donor-engine-closeup.jpg",
       "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/08-donor-exhaust-view.jpg",
       "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/09-donor-engine-installed.jpg",
-      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/10-donor-primary-cover.jpg"
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/10-donor-primary-cover.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/11-odometer-10365-miles.jpg"
     ],
     "donorMileageMiles": 10365,
     "donorHistory": "Donor 2020 Road Glide Limited FLTRK, owner-confirmed 10,365 miles. Pre-teardown motorcycle photographs and running video retained. No claims about compression or hidden internal condition.",
@@ -989,7 +990,7 @@
     ],
     "conditionDetails": "Original donor-bike photographs show the engine installed before dismantling. No obvious major exterior impact damage is visible in those views. Used finish has normal cosmetic wear and marks. No compression readings, oil-pressure readings or internal inspection are available. Supplied running video provides pre-teardown context; functionality after removal is not independently verified.",
     "shippingDetails": "Heavy assembly: freight/pallet or local collection; obtain a destination-specific quote. Planning estimates only: item ≈205 lb, packed ≈260 lb, crate/pallet ≈42 × 36 × 36 in. Measurements must be confirmed before shipment.",
-    "photoEvidence": "4 photos of removed engine assembly, 6 pre-teardown donor motorcycle photos. Running video embedded below. Separate odometer photo pending; owner confirms 10,365 miles.",
+    "photoEvidence": "Four removed-engine images, six pre-teardown donor-bike photos, and odometer proof image (owner-confirmed 10,365 miles). Running video embedded in product details.",
     "thumbnail": "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/01-engine-primary-side.jpg"
   }
 ]
