@@ -929,8 +929,19 @@
     "priceLabel": "Quote required — preview only",
     "shippingEstimate": "Freight / pallet or local pickup — request quote; packing measurements are estimates",
     "status": "Coming Soon",
-    "photoGroup": "Source engine photos and pre-teardown donor pictures archived in Airtable; web media upload pending",
-    "photos": [],
+    "photoGroup": "Supabase Storage product-videos/BIKE001-116/ (10 uploaded JPEGs)",
+    "photos": [
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/01-engine-primary-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/02-engine-primary-side-angle.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/03-engine-front.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/04-engine-opposite-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/05-donor-motorcycle-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/06-donor-motorcycle-other-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/07-donor-engine-closeup.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/08-donor-exhaust-view.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/09-donor-engine-installed.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/10-donor-primary-cover.jpg"
+    ],
     "donorMileageMiles": 10365,
     "donorHistory": "Donor 2020 Road Glide Limited FLTRK, owner-confirmed 10,365 miles. Pre-teardown motorcycle photographs and running video retained. No claims about compression or hidden internal condition.",
     "runningVideoUrl": "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/WhatsApp%20Video%202026-08-31%20at%2011.23.44%20PM.mp4",
@@ -978,6 +989,7 @@
     ],
     "conditionDetails": "Original donor-bike photographs show the engine installed before dismantling. No obvious major exterior impact damage is visible in those views. Used finish has normal cosmetic wear and marks. No compression readings, oil-pressure readings or internal inspection are available. Supplied running video provides pre-teardown context; functionality after removal is not independently verified.",
     "shippingDetails": "Heavy assembly: freight/pallet or local collection; obtain a destination-specific quote. Planning estimates only: item ≈205 lb, packed ≈260 lb, crate/pallet ≈42 × 36 × 36 in. Measurements must be confirmed before shipment.",
-    "photoEvidence": "Original donor motorcycle photos (both sides and close-ups), removed-engine photos (four angles) and separate odometer proof are archived for this SKU, but JPG files are not yet hosted for display on this website."
+    "photoEvidence": "4 photos of removed engine assembly, 6 pre-teardown donor motorcycle photos. Running video embedded below. Separate odometer photo pending; owner confirms 10,365 miles.",
+    "thumbnail": "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/01-engine-primary-side.jpg"
   }
 ]
