@@ -146,7 +146,7 @@ function openProduct(sku){
         <dt>Location</dt><dd>USA Stock</dd>
         <dt>Shipping</dt><dd>${esc(p.shippingEstimate || "Quote required")}</dd>
         ${p.engineSpecs ? p.engineSpecs.map(item=>`<dt>${esc(item[0])}</dt><dd>${esc(item[1])}</dd>`).join("") : ""}
-        ${p.donorMileageMiles ? `<dt>Donor odometer</dt><dd>${Number(p.donorMileageMiles).toLocaleString("en-US")} miles (owner reported)</dd>` : ""}
+        ${p.donorMileageMiles ? `<dt>Donor odometer</dt><dd>${Number(p.donorMileageMiles).toLocaleString("en-US")} miles</dd>` : ""}
       </dl>
       <div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div>
       ${p.donorHistory ? `<p class="donor-history-note">${esc(p.donorHistory)}</p>` : ""}
