@@ -86,8 +86,9 @@ function render(){
     const shortFit = language==="th" ? (p.thaiFitment || p.shortFitment || p.fitment || "") : (p.shortFitment || p.fitment || "");
     card.innerHTML=`
       <button class="part-photo" type="button" data-open="${esc(p.sku)}" aria-label="Open ${esc(titleFor(p))}">
-        <span class="part-photo-bg" style="background-image:url('${esc(photo)}')"></span>
-        <img class="sr-product-img" src="${esc(photo)}" alt="${esc(titleFor(p))}" loading="lazy">
+        ${(!p.photos || p.photos.length===0) && p.runningVideoUrl && /^https:\/\//i.test(p.runningVideoUrl)
+          ? `<video class="part-video-preview" muted playsinline preload="metadata" aria-label="Engine running video preview"><source src="${esc(p.runningVideoUrl)}#t=1" type="video/mp4"></video><span class="video-preview-label">▶ Watch Running Video</span>`
+          : `<span class="part-photo-bg" style="background-image:url('${esc(photo)}')"></span><img class="sr-product-img" src="${esc(photo)}" alt="${esc(titleFor(p))}" loading="lazy">`}
       </button>
       <div class="part-body">
         <div class="part-topline">
@@ -103,7 +104,7 @@ function render(){
         <div class="card-actions three-actions">
           <button class="primary-action" data-open="${esc(p.sku)}">Details</button>
           <button class="favorite-action" data-favorite="${esc(p.sku)}" title="Favorite">♡</button>
-          <button class="cart-action" data-cart="${esc(p.sku)}" title="Add to cart">🛒</button>
+${p.status==="Coming Soon" ? '<span class="coming-soon-detail">Preview</span>' : `<button class="cart-action" data-cart="${esc(p.sku)}" title="Add to cart">🛒</button>`}
         </div>
       </div>`;
     grid.appendChild(card);
@@ -140,8 +141,10 @@ function openProduct(sku){
         <dt>Condition</dt><dd>Used</dd>
         <dt>Location</dt><dd>USA Stock</dd>
         <dt>Shipping</dt><dd>${esc(p.shippingEstimate || "Quote required")}</dd>
+        ${p.donorMileageMiles ? `<dt>Donor odometer</dt><dd>${Number(p.donorMileageMiles).toLocaleString("en-US")} miles (owner reported)</dd>` : ""}
       </dl>
       <div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div>
+      ${p.donorHistory ? `<p class="donor-history-note">${esc(p.donorHistory)}</p>` : ""}
       <div class="dealer-hint">Dealer pricing available after sign in</div>
       ${p.runningVideoUrl && /^https:\/\//i.test(p.runningVideoUrl) ? `<div class="donor-video-block">
         <h3>${language==="th" ? "วิดีโอรถก่อนถอดชิ้นส่วน" : "Donor running video"}</h3>
@@ -153,7 +156,7 @@ function openProduct(sku){
       </div>` : ""}
       <div class="card-actions" style="margin-top:18px">
         <button class="favorite-action" data-favorite="${esc(p.sku)}">♡ Save</button>
-        <button class="primary-action cart-action" data-cart="${esc(p.sku)}">🛒 Add to cart</button>
+${p.status==="Coming Soon" ? '<span class="coming-soon-detail">Preview only · Not available to order yet</span>' : `<button class="primary-action cart-action" data-cart="${esc(p.sku)}">🛒 Add to cart</button>`}
       </div>
     </div>
    </div>`;
