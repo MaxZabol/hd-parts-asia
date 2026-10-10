@@ -143,6 +143,10 @@ function openProduct(sku){
       </dl>
       <div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div>
       <div class="dealer-hint">Dealer pricing available after sign in</div>
+      ${p.runningVideoUrl && /^https:\/\//i.test(p.runningVideoUrl) ? `<div class="donor-video-block">
+        <a class="donor-video-link" href="${esc(p.runningVideoUrl)}" target="_blank" rel="noopener noreferrer">▶ ${language==="th" ? "ดูวิดีโอรถก่อนถอดชิ้นส่วน" : "Watch donor running video"}</a>
+        <small>${language==="th" ? "วิดีโอก่อนรื้อรถ ไม่ใช่ผลทดสอบเครื่องยนต์ภายใน" : "Pre-teardown footage; not an internal engine inspection."}</small>
+      </div>` : ""}
       <div class="card-actions" style="margin-top:18px">
         <button class="favorite-action" data-favorite="${esc(p.sku)}">♡ Save</button>
         <button class="primary-action cart-action" data-cart="${esc(p.sku)}">🛒 Add to cart</button>
