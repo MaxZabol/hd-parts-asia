@@ -916,24 +916,68 @@
   },
   {
     "sku": "BIKE001-116",
-    "title": "2020 Harley-Davidson Milwaukee-Eight 114 Engine + 6-Speed Transmission + Primary + Belt",
-    "thaiTitle": "เครื่องยนต์ Milwaukee-Eight 114 พร้อมเกียร์ 6 สปีด ชุดไพรมารี และสายพาน",
+    "title": "2020 Harley-Davidson FLTRK Milwaukee-Eight 114 Engine & 6-Speed Transmission — Complete Assembly",
+    "thaiTitle": "เครื่องยนต์ Milwaukee-Eight 114 พร้อมเกียร์ 6 สปีด ชุดไพรมารีและสายพาน (2020 FLTRK)",
     "oem": "",
     "fitment": "Removed from 2020 Harley-Davidson Road Glide Limited FLTRK. Confirm exact fitment and included accessories before ordering.",
-    "shortFitment": "2020 FLTRK Road Glide Limited donor",
+    "shortFitment": "2020 Road Glide Limited FLTRK • 10,365 miles",
     "condition": "Used — external condition shown in photos; internals not independently tested",
     "category": "Engine & Drivetrain",
-    "shortDescription": "Complete pictured engine and drivetrain assembly from 2020 FLTRK donor. 114 cu in / 1,868 cc Twin-Cooled Milwaukee-Eight, 6-Speed Cruise Drive transmission, primary assembly and loose drive belt. Owner-reported 10,365 miles. Pre-teardown running video available. No compression test or internal inspection claimed.",
-    "thaiDescription": "เครื่องยนต์ 114 ลูกบาศก์นิ้ว 1,868 ซีซี พร้อมเกียร์ 6 สปีดและสายพานจากรถปี 2020 FLTRK เลขไมล์ที่เจ้าของแจ้ง 10,365 ไมล์ มีวิดีโอก่อนรื้อรถ ยังไม่ยืนยันผลทดสอบภายในเครื่อง",
+    "shortDescription": "2020 FLTRK donor engine with 10,365 owner-confirmed miles. Twin-Cooled Milwaukee-Eight 114 (1,868 cc), 6-Speed Cruise Drive transmission, primary assembly and separate final-drive belt as pictured. Real pre-teardown running video available. Used; external cosmetic wear, internal/compression tests not documented.",
+    "thaiDescription": "เครื่องยนต์ Twin-Cooled Milwaukee-Eight 114 (1,868 ซีซี) พร้อมเกียร์ 6 สปีด ชุดไพรมารี และสายพานจาก 2020 FLTRK ระยะทางที่เจ้าของยืนยัน 10,365 ไมล์ มีวิดีโอก่อนรื้อรถ ยังไม่มีผลทดสอบกำลังอัด",
     "thaiPriceTHB": null,
-    "priceLabel": "Price pending approval",
+    "priceLabel": "Quote required — preview only",
     "shippingEstimate": "Freight / pallet or local pickup — request quote; packing measurements are estimates",
     "status": "Coming Soon",
     "photoGroup": "Source engine photos and pre-teardown donor pictures archived in Airtable; web media upload pending",
     "photos": [],
     "donorMileageMiles": 10365,
-    "donorHistory": "Owner-reported donor odometer 10,365 miles. Assembled donor photos and running video available. External observations only; no guarantee of internal condition.",
+    "donorHistory": "Donor 2020 Road Glide Limited FLTRK, owner-confirmed 10,365 miles. Pre-teardown motorcycle photographs and running video retained. No claims about compression or hidden internal condition.",
     "runningVideoUrl": "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/WhatsApp%20Video%202026-08-31%20at%2011.23.44%20PM.mp4",
-    "partNumberConfidence": "Model specification confirmed; engine assembly service P/N not confirmed"
+    "partNumberConfidence": "Model specification confirmed; engine assembly service P/N not confirmed",
+    "engineSpecs": [
+      [
+        "Donor motorcycle",
+        "2020 Harley-Davidson Road Glide Limited (FLTRK)"
+      ],
+      [
+        "Engine",
+        "Twin-Cooled Milwaukee-Eight 114 V-Twin"
+      ],
+      [
+        "Displacement",
+        "114 cu in / 1,868 cc"
+      ],
+      [
+        "Transmission",
+        "6-Speed Cruise Drive"
+      ],
+      [
+        "Final drive",
+        "Belt drive; loose belt included as shown"
+      ],
+      [
+        "Reported mileage",
+        "10,365 miles (donor odometer)"
+      ],
+      [
+        "Finish",
+        "Black cases, contrasting machined/chrome details"
+      ],
+      [
+        "Testing evidence",
+        "Pre-teardown running video; no compression / internal inspection report"
+      ]
+    ],
+    "includedItems": [
+      "Engine assembly as photographed",
+      "6-speed transmission attached",
+      "Primary drive housing and cover",
+      "Loose final-drive belt shown in removed-engine photos",
+      "Wiring and fittings only where visible in the supplied component photos"
+    ],
+    "conditionDetails": "Original donor-bike photographs show the engine installed before dismantling. No obvious major exterior impact damage is visible in those views. Used finish has normal cosmetic wear and marks. No compression readings, oil-pressure readings or internal inspection are available. Supplied running video provides pre-teardown context; functionality after removal is not independently verified.",
+    "shippingDetails": "Heavy assembly: freight/pallet or local collection; obtain a destination-specific quote. Planning estimates only: item ≈205 lb, packed ≈260 lb, crate/pallet ≈42 × 36 × 36 in. Measurements must be confirmed before shipment.",
+    "photoEvidence": "Original donor motorcycle photos (both sides and close-ups), removed-engine photos (four angles) and separate odometer proof are archived for this SKU, but JPG files are not yet hosted for display on this website."
   }
 ]
