@@ -112,24 +112,28 @@ ${p.status==="Coming Soon" ? '<span class="coming-soon-detail">Preview</span>' :
 }
 function openProduct(sku){
   const p=catalog.find(x=>x.sku===sku); if(!p)return;
+  const hasVideoPreview=(!p.photos || p.photos.length===0) && p.runningVideoUrl && /^https:\/\//i.test(p.runningVideoUrl);
   const photos=(p.photos && p.photos.length ? p.photos : ["assets/placeholder.svg"]);
   const photo=photos[0];
-  const thumbs=photos.map((src,i)=>`
+  const thumbs=hasVideoPreview ? `<span class="gallery-thumb video-gallery-thumb">▶ Running video</span>` : photos.map((src,i)=>`
     <button class="gallery-thumb ${i===0 ? "active" : ""}" type="button" data-gallery-index="${i}" aria-label="Photo ${i+1}">
       <img src="${esc(src)}" alt="${esc(titleFor(p))} photo ${i+1}" loading="lazy">
     </button>`).join("");
   $("#modalContent").innerHTML=`
    <div class="modal-grid">
     <div class="modal-gallery">
-      <div class="modal-image">
-        <button class="gallery-nav prev" type="button" data-gallery-prev aria-label="Previous photo">‹</button>
+      <div class="modal-image ${hasVideoPreview ? "has-video" : ""}">
+        ${hasVideoPreview ? `<video class="gallery-feature-video" controls playsinline preload="metadata" aria-label="Engine running on donor bike before teardown">
+          <source src="${esc(p.runningVideoUrl)}" type="video/mp4">
+          Video playback is not supported by this browser.
+        </video>` : `<button class="gallery-nav prev" type="button" data-gallery-prev aria-label="Previous photo">‹</button>
         <button class="gallery-main-button" type="button" data-gallery-full aria-label="Open photo fullscreen">
           <img id="galleryMainImage" src="${esc(photo)}" alt="${esc(titleFor(p))}">
         </button>
-        <button class="gallery-nav next" type="button" data-gallery-next aria-label="Next photo">›</button>
+        <button class="gallery-nav next" type="button" data-gallery-next aria-label="Next photo">›</button>`}
       </div>
       <div class="gallery-thumbs">${thumbs}</div>
-      <div class="gallery-count"><span id="galleryCurrent">1</span> / ${photos.length}</div>
+      ${hasVideoPreview ? `<p class="preview-caption">Actual donor motorcycle running video · 18 seconds. Engine photos will appear here when hosted.</p>` : `<div class="gallery-count"><span id="galleryCurrent">1</span> / ${photos.length}</div>`}
     </div>
     <div class="modal-details">
       <span class="badge ${slugStatus(p.status)}">${esc(p.status)}</span>
@@ -141,10 +145,15 @@ function openProduct(sku){
         <dt>Condition</dt><dd>Used</dd>
         <dt>Location</dt><dd>USA Stock</dd>
         <dt>Shipping</dt><dd>${esc(p.shippingEstimate || "Quote required")}</dd>
+        ${p.engineSpecs ? p.engineSpecs.map(item=>`<dt>${esc(item[0])}</dt><dd>${esc(item[1])}</dd>`).join("") : ""}
         ${p.donorMileageMiles ? `<dt>Donor odometer</dt><dd>${Number(p.donorMileageMiles).toLocaleString("en-US")} miles (owner reported)</dd>` : ""}
       </dl>
       <div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div>
       ${p.donorHistory ? `<p class="donor-history-note">${esc(p.donorHistory)}</p>` : ""}
+      ${p.includedItems ? `<section class="assembly-detail-section"><h3>What's included</h3><ul>${p.includedItems.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>` : ""}
+      ${p.conditionDetails ? `<section class="assembly-detail-section"><h3>Condition & testing</h3><p>${esc(p.conditionDetails)}</p></section>` : ""}
+      ${p.shippingDetails ? `<section class="assembly-detail-section"><h3>Freight & pickup</h3><p>${esc(p.shippingDetails)}</p></section>` : ""}
+      ${p.photoEvidence ? `<p class="assembly-media-note">${esc(p.photoEvidence)}</p>` : ""}
       <div class="dealer-hint">Dealer pricing available after sign in</div>
       ${p.runningVideoUrl && /^https:\/\//i.test(p.runningVideoUrl) ? `<div class="donor-video-block">
         <h3>${language==="th" ? "วิดีโอรถก่อนถอดชิ้นส่วน" : "Donor running video"}</h3>
@@ -167,8 +176,9 @@ ${p.status==="Coming Soon" ? '<span class="coming-soon-detail">Preview only · N
   const thumbButtons=[...document.querySelectorAll("[data-gallery-index]")];
   const showPhoto=(index)=>{
     active=(index+photos.length)%photos.length;
+    if(!main) return;
     main.src=photos[active];
-    current.textContent=String(active+1);
+    if(current) current.textContent=String(active+1);
     thumbButtons.forEach((b,i)=>b.classList.toggle("active",i===active));
     thumbButtons[active]?.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"});
   };
