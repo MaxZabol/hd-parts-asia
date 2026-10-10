@@ -150,6 +150,7 @@ function openProduct(sku){
       </dl>
       <div class="thai-price">${moneyTHB(p.thaiPriceTHB)}</div>
       ${p.donorHistory ? `<p class="donor-history-note">${esc(p.donorHistory)}</p>` : ""}
+      ${p.titleDocumentation ? `<p class="donor-title-note"><b>${language==="th" ? "เอกสารรถต้นทาง:" : "Donor motorcycle title:"}</b> ${esc(language==="th" ? (p.thaiTitleDocumentation || p.titleDocumentation) : p.titleDocumentation)}</p>` : ""}
       ${p.includedItems ? `<section class="assembly-detail-section"><h3>What's included</h3><ul>${p.includedItems.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>` : ""}
       ${p.conditionDetails ? `<section class="assembly-detail-section"><h3>Condition & testing</h3><p>${esc(p.conditionDetails)}</p></section>` : ""}
       ${p.shippingDetails ? `<section class="assembly-detail-section"><h3>Freight & pickup</h3><p>${esc(p.shippingDetails)}</p></section>` : ""}
