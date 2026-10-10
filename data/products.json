@@ -1019,5 +1019,38 @@
     "thumbnail": "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/01-engine-primary-side.jpg",
     "titleDocumentation": "Virginia (USA) salvage title for the donor motorcycle is available upon request.",
     "thaiTitleDocumentation": "มีเอกสาร Salvage Title จากรัฐเวอร์จิเนีย สหรัฐอเมริกา ของรถต้นทาง สามารถขอสำเนาได้"
+  },
+  {
+    "sku": "BIKE001-117",
+    "title": "2020 Harley-Davidson FLTRK Road Glide Limited Main Frame / Chassis",
+    "thaiTitle": "เฟรมหลัก Harley-Davidson Road Glide Limited FLTRK ปี 2020",
+    "oem": "",
+    "fitment": "Removed from 2020 Harley-Davidson Road Glide Limited FLTRK. VIN/frame stamping and paperwork must be verified before sale. Buyer is responsible for checking registration and legal requirements.",
+    "shortFitment": "2020 FLTRK Road Glide Limited",
+    "condition": "Used",
+    "category": "Frame & Chassis",
+    "shortDescription": "Original used motorcycle frame/chassis removed from a 2020 FLTRK donor with 10,365 miles. Surface wear and dirt are visible; frame alignment, welds and hidden damage have not been independently inspected. Virginia (USA) salvage title for the donor motorcycle is available upon request.",
+    "thaiDescription": "เฟรมรถมือสองจาก Harley-Davidson FLTRK ปี 2020 ระยะทางรถต้นทาง 10,365 ไมล์ มีร่องรอยการใช้งาน ยังไม่ได้ตรวจสอบความตรงของเฟรมหรือความเสียหายที่มองไม่เห็น สามารถขอเอกสาร Virginia Salvage Title ของรถต้นทางได้",
+    "thaiPriceTHB": null,
+    "status": "Coming Soon",
+    "priceLabel": "Price pending approval",
+    "shippingEstimate": "Large-item freight / local pickup. Quote available upon request; dimensions and weight require measuring.",
+    "photoGroup": "Three genuine frame photos supplied by owner; awaiting hosting at product-videos/BIKE001-117/",
+    "photos": [
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/05-donor-motorcycle-side.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/06-donor-motorcycle-other-side.jpg"
+    ],
+    "donorMileageMiles": 10365,
+    "donorPhotoCount": 2,
+    "donorHistory": "Assembled motorcycle reference photos show the donor before dismantling. Separate close-up photos of the removed frame have been supplied but are awaiting media hosting. Odometer reading belongs to the donor motorcycle, not a measurement of frame condition.",
+    "titleDocumentation": "Virginia (USA) salvage title for the donor motorcycle is available upon request. Title/VIN correspondence and transfer requirements must be verified before sale.",
+    "thaiTitleDocumentation": "มีเอกสาร Virginia Salvage Title ของรถต้นทางให้ตรวจสอบตามคำขอ ต้องยืนยันหมายเลข VIN และเงื่อนไขการโอนก่อนซื้อ",
+    "conditionDetails": "Frame shown from both sides with steering-head close-up in three original photographs. Visible used finish, surface marks and dirt. No frame straightness test or weld inspection documented. Do not infer the frame is straight or free of concealed damage from the photographs.",
+    "includedItems": [
+      "Main black frame/chassis only, with brackets and mounts visible in actual frame photographs",
+      "Virginia salvage title documentation available for review upon request; paperwork terms require verification"
+    ],
+    "photoEvidence": "This preview uses two donor-bike photographs. The three actual dismantled frame photographs are not yet uploaded to the public image host; they will replace the temporary donor views when added.",
+    "partNumberConfidence": "Frame type associated with 2020 FLTRK; exact frame part number pending inspection"
   }
 ]
