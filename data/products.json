@@ -911,7 +911,7 @@
     "fitment": "2020 Harley-Davidson FLTRK Road Glide Limited, gloss-black 7-spoke wheel set.",
     "condition": "Used",
     "category": "Wheels & Brakes",
-    "shortDescription": "Used front and rear wheel set with tires and brake rotors from a 2020 FLTRK donor with owner-confirmed 10,365 miles. Donor odometer photo included. Tires and rotors are used; see close-up photographs and verify condition and dimensions before ordering.",
+    "shortDescription": "Used front and rear wheel set with tires and brake rotors from a 2020 FLTRK donor with 10,365 miles. Donor odometer photo included. Tires and rotors are used; see close-up photographs and verify condition and dimensions before ordering.",
     "thaiDescription": "สินค้ามือสอง สภาพดีเยี่ยม อาจมีรอยเล็กน้อยจากการใช้งานตามปกติ",
     "thaiPriceTHB": 55000,
     "priceLabel": "Thailand retail",
@@ -935,7 +935,7 @@
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
     "partNumberConfidence": "High",
-    "donorHistory": "Front and rear wheel set from 2020 FLTRK donor; owner-confirmed donor odometer 10,365 miles. Includes two assembled-bike reference views and a separate odometer evidence photo. This mileage is donor mileage, not a tire-condition or brake-rotor measurement. Actual wheels, tires and rotors must be assessed from component photos and measurements. SAME stock as separate listings BIKE001-099 / BIKE001-100; do not count twice.",
+    "donorHistory": "Front and rear wheel set from 2020 FLTRK donor; donor odometer 10,365 miles. Includes two assembled-bike reference views and a separate odometer evidence photo. This mileage is donor mileage, not a tire-condition or brake-rotor measurement. Actual wheels, tires and rotors must be assessed from component photos and measurements. SAME stock as separate listings BIKE001-099 / BIKE001-100; do not count twice.",
     "donorMileageMiles": 10365,
     "donorPhotoCount": 2
   },
@@ -948,7 +948,7 @@
     "shortFitment": "2020 Road Glide Limited FLTRK • 10,365 miles",
     "condition": "Used — external condition shown in photos; internals not independently tested",
     "category": "Engine & Drivetrain",
-    "shortDescription": "2020 FLTRK donor engine with 10,365 owner-confirmed miles. Twin-Cooled Milwaukee-Eight 114 (1,868 cc), 6-Speed Cruise Drive transmission, primary assembly and separate final-drive belt as pictured. Real pre-teardown running video available. Used; external cosmetic wear, internal/compression tests not documented.",
+    "shortDescription": "2020 FLTRK donor engine with 10,365 miles. Twin-Cooled Milwaukee-Eight 114 (1,868 cc), 6-Speed Cruise Drive transmission, primary assembly and separate final-drive belt as pictured. Real pre-teardown running video available. Used; external cosmetic wear, internal/compression tests not documented.",
     "thaiDescription": "เครื่องยนต์ Twin-Cooled Milwaukee-Eight 114 (1,868 ซีซี) พร้อมเกียร์ 6 สปีด ชุดไพรมารี และสายพานจาก 2020 FLTRK ระยะทางที่เจ้าของยืนยัน 10,365 ไมล์ มีวิดีโอก่อนรื้อรถ ยังไม่มีผลทดสอบกำลังอัด",
     "thaiPriceTHB": null,
     "priceLabel": "Quote required — preview only",
@@ -969,7 +969,7 @@
       "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/11-odometer-10365-miles.jpeg"
     ],
     "donorMileageMiles": 10365,
-    "donorHistory": "Donor 2020 Road Glide Limited FLTRK, owner-confirmed 10,365 miles. Pre-teardown motorcycle photographs and running video retained. No claims about compression or hidden internal condition.",
+    "donorHistory": "Donor 2020 Road Glide Limited FLTRK, 10,365 miles. Pre-teardown motorcycle photographs and running video retained. No claims about compression or hidden internal condition.",
     "runningVideoUrl": "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/WhatsApp%20Video%202026-08-31%20at%2011.23.44%20PM.mp4",
     "partNumberConfidence": "Model specification confirmed; engine assembly service P/N not confirmed",
     "engineSpecs": [
@@ -1015,7 +1015,7 @@
     ],
     "conditionDetails": "Original donor-bike photographs show the engine installed before dismantling. No obvious major exterior impact damage is visible in those views. Used finish has normal cosmetic wear and marks. No compression readings, oil-pressure readings or internal inspection are available. Supplied running video provides pre-teardown context; functionality after removal is not independently verified.",
     "shippingDetails": "Heavy assembly: freight/pallet or local collection; obtain a destination-specific quote. Planning estimates only: item ≈205 lb, packed ≈260 lb, crate/pallet ≈42 × 36 × 36 in. Measurements must be confirmed before shipment.",
-    "photoEvidence": "Four removed-engine images, six pre-teardown donor-bike photos, and odometer proof image (owner-confirmed 10,365 miles). Running video embedded in product details.",
+    "photoEvidence": "Four removed-engine images, six pre-teardown donor-bike photos, and odometer proof image (10,365 miles). Running video embedded in product details.",
     "thumbnail": "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/01-engine-primary-side.jpg"
   }
 ]
