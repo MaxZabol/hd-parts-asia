@@ -1035,8 +1035,11 @@
     "status": "Coming Soon",
     "priceLabel": "Price pending approval",
     "shippingEstimate": "Large-item freight / local pickup. Quote available upon request; dimensions and weight require measuring.",
-    "photoGroup": "Three genuine frame photos supplied by owner; awaiting hosting at product-videos/BIKE001-117/",
+    "photoGroup": "Original frame photographs in Supabase Storage product-videos/BIKE001-117/ (three JPGs), plus two donor-bike reference photographs",
     "photos": [
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-117/New%20Bitmap%20image2.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-117/New%20Bitmap%20image.jpg",
+      "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-117/New%20Bitmap%20image1.jpg",
       "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/05-donor-motorcycle-side.jpg",
       "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-116/06-donor-motorcycle-other-side.jpg"
     ],
@@ -1050,7 +1053,8 @@
       "Main black frame/chassis only, with brackets and mounts visible in actual frame photographs",
       "Virginia salvage title documentation available for review upon request; paperwork terms require verification"
     ],
-    "photoEvidence": "This preview uses two donor-bike photographs. The three actual dismantled frame photographs are not yet uploaded to the public image host; they will replace the temporary donor views when added.",
-    "partNumberConfidence": "Frame type associated with 2020 FLTRK; exact frame part number pending inspection"
+    "photoEvidence": "Three actual removed-frame photographs (two overall views and a steering-neck close-up), followed by two donor motorcycle pre-teardown photographs.",
+    "partNumberConfidence": "Frame type associated with 2020 FLTRK; exact frame part number pending inspection",
+    "thumbnail": "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/BIKE001-117/New%20Bitmap%20image2.jpg"
   }
 ]
