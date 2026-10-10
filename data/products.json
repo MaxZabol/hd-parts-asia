@@ -447,7 +447,9 @@
       "assets/products/BIKE001-017/08.jpg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
-    "partNumberConfidence": "Confirmed"
+    "partNumberConfidence": "Confirmed",
+    "donorHistory": "Pre-teardown donor motorcycle photos document the installed Tour-Pak and matching paint. Cosmetic condition must be judged from actual part close-up photos.",
+    "donorMileageMiles": 10365
   },
   {
     "sku": "BIKE001-018",
@@ -475,7 +477,9 @@
       "assets/products/BIKE001-018/08.jpg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
-    "partNumberConfidence": "Confirmed"
+    "partNumberConfidence": "Confirmed",
+    "donorHistory": "Pre-teardown donor photos show fuel tank installed on the 2020 FLTRK. No obvious major external impact damage visible in these views; see detached-tank photos for scuffs and exact condition.",
+    "donorMileageMiles": 10365
   },
   {
     "sku": "BIKE001-019",
@@ -803,7 +807,9 @@
       "assets/products/BIKE001-033/05.jpg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
-    "partNumberConfidence": "Confirmed"
+    "partNumberConfidence": "Confirmed",
+    "donorHistory": "Pre-teardown motorcycle photo shows the saddlebag lid installed and matching donor paint. Detached lid has scratches; review detailed part photos.",
+    "donorMileageMiles": 10365
   },
   {
     "sku": "BIKE001-034",
@@ -904,6 +910,30 @@
       "assets/products/BIKE001-037/10.jpg"
     ],
     "shortFitment": "2020 FLTRK Road Glide Limited",
-    "partNumberConfidence": "High"
+    "partNumberConfidence": "High",
+    "donorHistory": "Front and rear wheel set from 2020 FLTRK donor with owner-reported 10,365 miles. Odometer proof and assembled motorcycle reference photographs available. Wheels are also tracked as alternative separate sale offers BIKE001-099 and BIKE001-100; not additional inventory.",
+    "donorMileageMiles": 10365
+  },
+  {
+    "sku": "BIKE001-116",
+    "title": "2020 Harley-Davidson Milwaukee-Eight 114 Engine + 6-Speed Transmission + Primary + Belt",
+    "thaiTitle": "เครื่องยนต์ Milwaukee-Eight 114 พร้อมเกียร์ 6 สปีด ชุดไพรมารี และสายพาน",
+    "oem": "",
+    "fitment": "Removed from 2020 Harley-Davidson Road Glide Limited FLTRK. Confirm exact fitment and included accessories before ordering.",
+    "shortFitment": "2020 FLTRK Road Glide Limited donor",
+    "condition": "Used — external condition shown in photos; internals not independently tested",
+    "category": "Engine & Drivetrain",
+    "shortDescription": "Complete pictured engine and drivetrain assembly from 2020 FLTRK donor. 114 cu in / 1,868 cc Twin-Cooled Milwaukee-Eight, 6-Speed Cruise Drive transmission, primary assembly and loose drive belt. Owner-reported 10,365 miles. Pre-teardown running video available. No compression test or internal inspection claimed.",
+    "thaiDescription": "เครื่องยนต์ 114 ลูกบาศก์นิ้ว 1,868 ซีซี พร้อมเกียร์ 6 สปีดและสายพานจากรถปี 2020 FLTRK เลขไมล์ที่เจ้าของแจ้ง 10,365 ไมล์ มีวิดีโอก่อนรื้อรถ ยังไม่ยืนยันผลทดสอบภายในเครื่อง",
+    "thaiPriceTHB": null,
+    "priceLabel": "Price pending approval",
+    "shippingEstimate": "Freight / pallet or local pickup — request quote; packing measurements are estimates",
+    "status": "Coming Soon",
+    "photoGroup": "Source engine photos and pre-teardown donor pictures archived in Airtable; web media upload pending",
+    "photos": [],
+    "donorMileageMiles": 10365,
+    "donorHistory": "Owner-reported donor odometer 10,365 miles. Assembled donor photos and running video available. External observations only; no guarantee of internal condition.",
+    "runningVideoUrl": "https://sxmprqcjmgjcanrgwmbf.supabase.co/storage/v1/object/public/product-videos/WhatsApp%20Video%202026-08-31%20at%2011.23.44%20PM.mp4",
+    "partNumberConfidence": "Model specification confirmed; engine assembly service P/N not confirmed"
   }
 ]
