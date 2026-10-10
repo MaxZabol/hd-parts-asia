@@ -155,7 +155,7 @@ function openProduct(sku){
       ${p.shippingDetails ? `<section class="assembly-detail-section"><h3>Freight & pickup</h3><p>${esc(p.shippingDetails)}</p></section>` : ""}
       ${p.photoEvidence ? `<p class="assembly-media-note">${esc(p.photoEvidence)}</p>` : ""}
       <div class="dealer-hint">Dealer pricing available after sign in</div>
-      ${p.runningVideoUrl && /^https:\/\//i.test(p.runningVideoUrl) ? `<div class="donor-video-block">
+      ${!hasVideoPreview && p.runningVideoUrl && /^https:\/\//i.test(p.runningVideoUrl) ? `<div class="donor-video-block">
         <h3>${language==="th" ? "วิดีโอรถก่อนถอดชิ้นส่วน" : "Donor running video"}</h3>
         <video class="donor-video-player" controls playsinline preload="metadata" aria-label="Pre-teardown donor motorcycle video">
           <source src="${esc(p.runningVideoUrl)}" type="video/mp4">
