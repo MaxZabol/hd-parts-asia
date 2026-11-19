@@ -1,7 +1,7 @@
 let catalog = [];
 let language = localStorage.getItem("hdpa-language") || "th";
 let currency = localStorage.getItem("hdpa-currency") || "THB";
-const THB_PER_USD = 34; // indicative display conversion; checkout/quote remains THB
+const THB_PER_USD = 33.73; // indicative display conversion; checkout/quote remains THB
 
 const $ = (sel) => document.querySelector(sel);
 const grid = $("#inventoryGrid");
@@ -16,7 +16,7 @@ function moneyTHB(value){
   if(currency==="USD"){
     return "≈ " + new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:2}).format(Number(value)/THB_PER_USD);
   }
-  return new Intl.NumberFormat("th-TH",{style:"currency",currency:"THB",maximumFractionDigits:0}).format(value);
+  return new Intl.NumberFormat("th-TH",{style:"currency",currency:"THB",minimumFractionDigits:0,maximumFractionDigits:2}).format(value);
 }
 function moneyUSD(value){
   if(value === null || value === undefined || value === "") return "";
@@ -142,7 +142,7 @@ function openProduct(sku){
       <dl class="detail-list">
         ${p.oem ? '<dt>Part #</dt><dd>'+esc(p.oem)+'</dd>' : ''}
         <dt>Fitment</dt><dd>${esc(p.fitment || "—")}</dd>
-        <dt>Condition</dt><dd>Used</dd>
+        <dt>Condition</dt><dd>${esc(p.condition || "Used")}</dd>
         <dt>Location</dt><dd>USA Stock</dd>
         <dt>Shipping</dt><dd>${esc(p.shippingEstimate || "Quote required")}</dd>
         ${p.engineSpecs ? p.engineSpecs.map(item=>`<dt>${esc(item[0])}</dt><dd>${esc(item[1])}</dd>`).join("") : ""}
@@ -237,7 +237,7 @@ modal.addEventListener("click",e=>{if(e.target===modal)modal.close();});
 [searchInput,categoryFilter,statusFilter].forEach(el=>el.addEventListener("input",render));
 $("#year").textContent=new Date().getFullYear();
 
-fetch("data/products.json?v=20261010-frame117",{cache:"no-store"})
+fetch("data/products.json?v=20261118",{cache:"no-store"})
  .then(r=>{if(!r.ok)throw new Error("catalog");return r.json();})
  .then(data=>{catalog=Array.isArray(data)?data:[];buildFilters();updateStats();applyLanguage();})
  .catch(()=>{catalog=[];updateStats();applyLanguage();});
