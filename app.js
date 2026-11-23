@@ -11,12 +11,12 @@ const categoryFilter = $("#categoryFilter");
 const statusFilter = $("#statusFilter");
 const modal = $("#productModal");
 
-function moneyTHB(value){
+function moneyTHB(value, displayCurrency = currency){
   if(value === null || value === undefined || value === "") return "Contact for price";
-  if(currency==="USD"){
+  if(displayCurrency==="USD"){
     return "≈ " + new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:2}).format(Number(value)/THB_PER_USD);
   }
-  return new Intl.NumberFormat("th-TH",{style:"currency",currency:"THB",minimumFractionDigits:0,maximumFractionDigits:2}).format(value);
+  return new Intl.NumberFormat("th-TH",{style:"currency",currency:"THB",trailingZeroDisplay:"stripIfInteger"}).format(value);
 }
 function moneyUSD(value){
   if(value === null || value === undefined || value === "") return "";
@@ -237,7 +237,7 @@ modal.addEventListener("click",e=>{if(e.target===modal)modal.close();});
 [searchInput,categoryFilter,statusFilter].forEach(el=>el.addEventListener("input",render));
 $("#year").textContent=new Date().getFullYear();
 
-fetch("data/products.json?v=20261118",{cache:"no-store"})
+fetch("data/products.json?v=20261122",{cache:"no-store"})
  .then(r=>{if(!r.ok)throw new Error("catalog");return r.json();})
  .then(data=>{catalog=Array.isArray(data)?data:[];buildFilters();updateStats();applyLanguage();})
  .catch(()=>{catalog=[];updateStats();applyLanguage();});

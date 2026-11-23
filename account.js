@@ -52,7 +52,7 @@ function setMsg(el, msg, type=""){
 }
 function moneyTHB2(v){
   if(v===null || v===undefined || v==="") return "—";
-  return new Intl.NumberFormat("th-TH",{style:"currency",currency:"THB",maximumFractionDigits:0}).format(v);
+  return moneyTHB(v,"THB");
 }
 function setAuthMode(mode){
   hdpaAuthMode = mode;
@@ -155,7 +155,7 @@ async function loadFavorites(){
   const box=document.getElementById("favoritesList");
   const {data,error}=await sb.from("favorites").select("*").eq("user_id",hdpaUser.id).order("created_at",{ascending:false});
   if(error){ box.innerHTML='<p class="muted">Could not load favorites.</p>'; return; }
-  const items=data||[];
+  const items=(data||[]).map(item=>({...item,product:catalog.find(p=>p.sku===item.sku)}));
   box.innerHTML=items.length ? items.map(x=>`
     <div class="mini-row favorite-row">
       <img class="favorite-thumb" src="${x.image_url||'assets/placeholder.svg'}" alt="">
@@ -164,8 +164,8 @@ async function loadFavorites(){
         <small>${x.sku}</small>
       </div>
       <div class="row-actions">
-        <strong>${moneyTHB2(x.thai_price_thb)}</strong>
-        <button class="fav-cart-btn" data-favorite-cart="${x.sku}">Add to cart</button>
+        <strong>${moneyTHB2(x.product ? x.product.thaiPriceTHB : x.thai_price_thb)}</strong>
+        ${x.product && x.product.status!=="Coming Soon" ? `<button class="fav-cart-btn" data-favorite-cart="${x.sku}">Add to cart</button>` : ""}
         <button class="fav-remove-btn" data-favorite-remove="${x.id}">Remove</button>
       </div>
     </div>`).join("") : '<p class="muted">No favorites yet.</p>';
